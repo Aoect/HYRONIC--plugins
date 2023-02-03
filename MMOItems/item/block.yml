@@ -1,0 +1,65 @@
+MYTHRIL_ORE:
+  base:
+    material: STONE
+    name: Mythril Ore
+    required-power: 7.0
+    tier: B
+    disable-crafting: true
+    disable-smithing: true
+    crafting:
+      furnace:
+        '1':
+          input: []
+          amount: 1
+          hidden: false
+          exp: 2.5
+          item: m MATERIAL MYTHRIL_INGOT 1.0..
+          time: 1.0
+      blast:
+        '1':
+          input: []
+          item: m MATERIAL MYTHRIL_INGOT 1.0..
+    gen-template: mythril
+    block-id: 3.0
+ORICHALCUM_ORE:
+  base:
+    material: STONE
+    name: Orichalcum Ore
+    required-power: 8.0
+    disable-smithing: true
+    disable-crafting: true
+    crafting:
+      furnace:
+        '1':
+          input: []
+          item: m MATERIAL ORICHALCUM_INGOT 1.0..
+          exp: 3.0
+      blast:
+        '1':
+          input: []
+          item: m MATERIAL ORICHALCUM_INGOT 1.0..
+          exp: 3.0
+    tier: B
+    gen-template: orichalcum
+    block-id: 1.0
+TITANIUM_ORE:
+  base:
+    material: STONE
+    block-id: 23.0
+    name: Titanium Ore
+    required-power: 8.0
+    tier: A
+    disable-smithing: true
+    disable-crafting: true
+    crafting:
+      furnace:
+        '1':
+          input: []
+          exp: 4.0
+          item: m MATERIAL TITANIUM_INGOT 1.0..
+      blast:
+        '1':
+          input: []
+          exp: 4.0
+          item: m MATERIAL TITANIUM_INGOT 1.0..
+    gen-template: titanium

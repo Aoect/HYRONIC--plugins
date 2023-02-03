@@ -1,0 +1,176 @@
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
+header-footer:
+  enabled: true
+  disable-in-worlds:
+  - disabledworld
+  header:
+  - '&fホ'
+  - ''
+  - ''
+  - ''
+  - ''
+  footer:
+  - ''
+  - '&#77DD77&lʙᴜꜰꜰꜱ &8& &#ff6961&lᴅᴇʙᴜꜰꜰꜱ'
+  - ''
+  - '&f%javascript_buffs%'
+  - ''
+  - '&8&oWhen the world is nearing its end day, only the bravest'
+  - '&8&osoul and strongest mind can save it. Be that hero.'
+tablist-name-formatting:
+  enabled: true
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: true
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: 0.22
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-in-servers: []
+  can-see-friendly-invisibles: false
+yellow-number-in-tablist:
+  enabled: false
+  value: '%ping%'
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: '&cHealth'
+  disable-in-worlds:
+  - disabledworld
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  disable-in-worlds:
+  - disabledworld
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      progress: '100'
+      text: '&f௙ &6%vault_eco_balance_formatted% &6Coins    &f௛  &#b9f2ffAdventurer
+        LVL &#61e2ff1 &8(&#7ed4e60%&8) &f௛    &f௘ &#ADD8E60 Hyrons'
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 1
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    default:
+      title: '&fパ'
+      lines:
+      - '&a'
+      - '&a'
+      - ''
+      - '&f%javascript_location%'
+      - ''
+      - '&fɪᴅ: &7%player_name%'
+      - '&fᴘᴜʀꜱᴇ: &6%vault_eco_balance_formatted%&f௣'
+      - '&fʟᴀɴᴅ: &#aec6cf%griefprevention_claims%'
+      - '&fꜱ.ᴘᴏᴡᴇʀ: &3%javascript_power%✯'
+      - ''
+      - '&8⌛&#C0C0C0 %localtime_time_dd/LL/yyyy%'
+      - '&8⌚&#C0C0C0 %localtime_time_HH:mma%'
+ping-spoof:
+  enabled: false
+  value: 0
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%afk%':
+    true: ' &o[AFK]&r'
+    false: ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+    '%server_unique_joins%': 5000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- owner
+- admin
+- mod
+- helper
+- emerald
+- diamond
+- redstone
+- gold
+- iron
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

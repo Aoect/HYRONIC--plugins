@@ -1,0 +1,125 @@
+baits:
+  Luminating Tissue:
+    lore:
+    - "&6ψ &fAttracts &6Golden Fishes" 
+    - ""
+    - "&7&oA piece of flesh ripped from the golden"
+    - "&7&ofishes themselves. They appear to have"
+    - "&7&odeveloped a form of cannibalism."
+    item:
+      material: PAPER
+      custom-model-data: 16
+      displayname: "&6Luminating Tissue"
+    # This can be used in the lore format to create a consistent colour theme.
+    bait-theme: "&6"
+    # This lists the fish that are attracted to this bait (make sure to specify the rarity and ensure there's no typos)
+    rarities:
+      - "Legendary"
+    # How likely should it be to find this bait when they're caught.
+    catch-weight: 100
+    # When more than 1 types of baits are applied, how likely is it that this one should be used?
+    application-weight: 1
+    # How many of this bait can be applied to a rod at once?
+    max-baits: 20
+
+  Void Pearl:
+    lore:
+    - "&#A020F0ψ &fAttracts &#A020F0Void Eel" 
+    - ""
+    - "&7&oIt seems to absorb the light around,"
+    - "&7&oa property many void materials share"
+    item:
+      material: PAPER
+      custom-model-data: 17
+      displayname: "&#A020F0Void Pearl"
+    # This can be used in the lore format to create a consistent colour theme.
+    bait-theme: "&#A020F0"
+    # This lists the fish that are attracted to this bait (make sure to specify the rarity and ensure there's no typos)
+    fishes:
+      - "Void Eel"
+    # How likely should it be to find this bait when they're caught.
+    catch-weight: 100
+    # When more than 1 types of baits are applied, how likely is it that this one should be used?
+    application-weight: 3
+    # How many of this bait can be applied to a rod at once?
+    max-baits: 20
+
+  Heximus Flesh:
+    lore:
+    - "&cψ &fAttracts &cHexified Fishes" 
+    - ""
+    - "&7&oThis piece of meat was exposed to"
+    - "&7&oHex Magic, which modified its cells"
+    - "&7&oand gave it new properties."
+    item:
+      material: PAPER
+      custom-model-data: 18
+      displayname: "&cHeximus Flesh"
+    # This can be used in the lore format to create a consistent colour theme.
+    bait-theme: "&c"
+    # This lists the fish that are attracted to this bait (make sure to specify the rarity and ensure there's no typos)
+    fishes:
+      - "Void Eel"
+    # How likely should it be to find this bait when they're caught.
+    catch-weight: 100
+    # When more than 1 types of baits are applied, how likely is it that this one should be used?
+    application-weight: 2
+    # How many of this bait can be applied to a rod at once?
+    max-baits: 20
+
+general:
+  # This defines the multiplier for how frequently a rarity/fish appears.
+  # Setting to -1 will mean players are guaranteed to get a fish available from the bait.
+  boost: 1.5
+
+  # Prevents players being able to use their baits during competitions, this is recommended if your rarer rarities are
+  # longer, as players could abuse these baits to get into the leaderboard
+  competition-disable: true
+
+  # When baits are applied to rods, should they show at the bottom of the lore of a fishing rod?
+  # Setting this to false will not affect currently baited rods, and their lore will stop being modified by the plugin.
+  add-to-lore: true
+
+  # As a percentage, how often should baits appear? (The bait will be more likely to be selected if it has a higher catch-weight. It will also
+  # replace any fish that might have been caught in its place.)
+  catch-percentage: 2.5
+
+  # How many types of bait can be applied to each fishing rod.
+  # NOTE: THIS WILL BREAK RODS THAT ALREADY HAVE BAITS APPLIED.
+  baits-per-rod: 5
+
+  # Should unused bait slots show a message in their place?
+  # NOTE: THIS WILL BREAK RODS THAT ALREADY HAVE BAITS APPLIED.
+  show-unused-slots: true
+
+format:
+  # How the lore should look ({baits} takes up multiple lines)
+  rod-lore:
+    - "&f"
+    - "&6ψ Baits: &7{current_baits}&8/&7{max_baits}"
+    - "{baits}"
+    - "&f"
+
+  # The default lore of the bait, changing this will not modify existing baits, but with an /emf admin reload, new baits
+  # given out will have this lore. Bait themes can be set as a colour or prefix and be used in this lore.
+  bait-lore:
+    - "&f"
+    - "{lore}"
+    - "&f"
+    - "&7Δ &8Drop onto a fishing rod to apply 1"
+    - "&7Δ &8Hold SHIFT to apply all."
+  # How the baits should look in each line of the {baits} variable above ^. {baits} respects the display name setting,
+  # the &e is there for baits without a display name set.
+  baits: "&8+ &f{amount} {bait}"
+
+  # These are listed in the {boosts} variable above in bait-lore
+  # boost-rarity/rarities: shown when the bait only impacts 1 rarity or when it impacts multiple rarities.
+  # boost-fish: shown when the bait impacts some fish individually.
+  boosts-rarity: "{bait_theme}► &f1 {bait_theme}Rarity"
+  boosts-rarities: "{bait_theme}► &f{amount} {bait_theme}Rarities"
+  boosts-fish: "{bait_theme}► &f{amount} {bait_theme}Fish"
+
+  # This is added to the lore in place of a bait if show-unused-slots is enabled in the general section.
+  unused-slot: "&8+ &7Empty"
+
+config-version: 1

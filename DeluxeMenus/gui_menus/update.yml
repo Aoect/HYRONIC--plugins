@@ -1,0 +1,78 @@
+open_command: []
+size: 54
+menu_title: '&f௚&0 ꜰʟᴇᴜʀ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: black_stained_glass_pane
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,48,50,51,52,17,26,35,44,53]
+    display_name: ""
+    lore: []
+  'innerfill':
+    material: gray_stained_glass_pane
+    slots: [10,11,12,13,14,15,16,19,20,21,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43]
+    display_name: ""
+    lore: []
+  '1':
+    material: BOOK
+    model_data: 69
+    slot: 20
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&c🗡 Mob Changes"
+    lore:
+      - "&8• &7Mobs now have levels indicating"
+      - "&7their strength. Higher level means"
+      - "&7higher base stats, up to &clevel 30&7."
+      - "&7Mobs' levels are determined by"
+      - "&7nearby players' &ccombat level&7!"
+      - ""
+      - "&8• &7Mobs now drop &cnew, unique &7items"
+      - "&7that can be crafted into powerful"
+      - "&7equipments, armor and more!"
+      - "&7Higher level mobs drop more items!"
+  '2':
+    material: BOOK
+    model_data: 33
+    slot: 22
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&9⛏ New Item Changes"
+    lore:
+      - "&8• &7Non-Vanilla equipments have its"
+      - "&7stats randomized by up to &320%&7,"
+      - "&7meaning that it can be &c⬇ 20% lower"
+      - "&7or &a⬆ 20% higher&7 to its &7&obase stats&7"
+      - "&7when first crafted!"
+      - "&8To be added."
+      - ""
+      - "&8• &7Some items got new and unique"
+      - "&3abilities&7 that can be activated to"
+      - "&7produce special effects!"
+  '3':
+    material: BOOK
+    model_data: 100
+    slot: 48
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&dEnchant for Dummy"
+    lore:
+      - "&6Hyronic Survival&7 introduces over &e55&7"
+      - "&7custom enchantments into the game!"
+      - "&7This guide contains everything you"
+      - "&7need to know about them!"
+      - ""
+      - "&eClick to open!"
+    left_click_commands:
+      - "[player] excellentenchants list"
+      - "[sound] BLOCK_LEVER_CLICK"

@@ -1,0 +1,25 @@
+enabled: true
+direction: COLUMNS
+default-skin: mineskin:1753261242
+enable-remaining-players-text: true
+remaining-players-text: '... and %s more'
+empty-slot-ping-value: 1
+layouts:
+  default:
+    fixed-slots:
+    - 1|&f&l               ᴘʟᴀʏᴇʀꜱ|mineskin:1105851698
+    - 61|&6&l        ᴀᴅᴠᴇɴᴛᴜʀᴇʀ ᴘʀᴏꜰɪʟᴇ&7               |mineskin:1074335506
+    - 63|&f௔ &#A7C7E7&lPROFILE
+    - '64|&fRank: %luckperms_highest_inherited_group_by_weight%'
+    - '65|&fPurse: &6%vault_eco_balance_commas%&f௣'
+    - '66|&fSkill Power: &3%javascript_power%✯'
+    - '67|&fDeaths: &c%statistic_deaths%☠'
+    - '68|&fTime Played: &a%statistic_time_played:days%d %statistic_time_played:hours%h'
+    - 70|&f௕ &#C2B280&lREAL ESTATE
+    - '71|&fOwned Lands: &6%griefprevention_claims%'
+    - '72|&fRemaining Blocks: &c%griefprevention_remainingclaims%'
+    groups:
+      players:
+        slots:
+        - 2-60
+hide-vanished-players: true

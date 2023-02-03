@@ -1,0 +1,15 @@
+Name: §a§l绿宝石奖励箱钥匙
+Virtual: false
+Item:
+  Material: PAPER
+  Amount: 1
+  Durability: 0
+  Name: '&f奖励箱钥匙（绿宝石）'
+  Lore:
+  - ''
+  - '&7用于打开'
+  - '&7同种类的奖励箱'
+  Custom_Model_Data: 15
+  Item_Flags:
+  - HIDE_ATTRIBUTES
+  Unbreakable: false

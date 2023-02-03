@@ -1,0 +1,45 @@
+NETHERITE_PICKAXE:
+  base:
+    material: NETHERITE_PICKAXE
+    name: Netherite Pickaxe
+    tier: B
+    pickaxe-power: 7.0
+    lore:
+    - '&7Strong enough to break'
+    - '&7Mythril Ore.'
+MYTHRIL_PICKAXE:
+  base:
+    material: NETHERITE_PICKAXE
+    custom-model-data: 1.0
+    name: Mythril Pickaxe
+    tier: A
+    pickaxe-power: 8.0
+    lore:
+    - '&7Strong enough to break'
+    - '&7Orichalcum Ore.'
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+ORICHALCUM_PICKAXE:
+  base:
+    material: NETHERITE_PICKAXE
+    custom-model-data: 2.0
+    name: Orichalcum Pickaxe
+    tier: A
+    pickaxe-power: 9.0
+    lore:
+    - '&7Strong enough to break'
+    - '&7Titanium Ore.'
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..

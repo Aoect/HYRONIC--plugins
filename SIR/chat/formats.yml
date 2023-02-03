@@ -1,0 +1,103 @@
+# check your modules.yml chat section to see the default format
+formats:
+  # a random number or custom name
+  default:
+    prefix: '&fி'
+    suffix: '%alonsotags_tag_chat%'
+    format: '{prefix} &f{player} {suffix}&8: &7{message}'
+  iron:
+    permission: chat.iron
+    priority: 10
+    prefix: '&fீ'
+    suffix: '%alonsotags_tag_chat%'
+    format: '{prefix} &f{player} {suffix}&8: &#C0C0C0{message}'
+  gold:
+    permission: chat.gold
+    priority: 20
+    prefix: '&fு'
+    suffix: '%alonsotags_tag_chat%'
+    format: '{prefix} &f{player} {suffix}&8: &#E7D27C{message}'
+  redstone:
+    permission: chat.redstone
+    priority: 30
+    prefix: '&fூ'
+    suffix: '%alonsotags_tag_chat%'
+    format: '{prefix} &f{player} {suffix}&8: &#ff6961{message}'
+  diamond:
+    permission: chat.diamond
+    priority: 40
+    prefix: '&f௃'
+    suffix: '%alonsotags_tag_chat%'
+    color:
+      # minecraft colors
+      normal: true
+      # special formatting (bold, underlined, etc)
+      special: false
+      # rgb, gradient, etc
+      rgb: false
+    format: '{prefix} &f{player} {suffix}&8: &#A7C7E7{message}'
+  emerald:
+    permission: chat.emerald
+    priority: 50
+    prefix: '&f௄'
+    suffix: '%alonsotags_tag_chat%'
+    color:
+      # minecraft colors
+      normal: true
+      # special formatting (bold, underlined, etc)
+      special: false
+      # rgb, gradient, etc
+      rgb: false
+    format: '{prefix} &f{player} {suffix}&8: &#77DD77{message}'
+  helper:
+    permission: chat.helper
+    priority: 60
+    prefix: '&f௅'
+    suffix: '%alonsotags_tag_chat%'
+    color:
+      # minecraft colors
+      normal: true
+      # special formatting (bold, underlined, etc)
+      special: true
+      # rgb, gradient, etc
+      rgb: true
+    format: '{prefix} &f{player} {suffix}&8: &#E7D27C{message}'
+  mod:
+    permission: chat.mod
+    priority: 70
+    prefix: '&f௅'
+    suffix: '%alonsotags_tag_chat%'
+    color:
+      # minecraft colors
+      normal: true
+      # special formatting (bold, underlined, etc)
+      special: true
+      # rgb, gradient, etc
+      rgb: true
+    format: '{prefix} &f{player} {suffix}&8: &#77DD77{message}'
+  admin:
+    permission: chat.admin
+    priority: 80
+    prefix: '&fே'
+    suffix: '%alonsotags_tag_chat%'
+    color:
+      # minecraft colors
+      normal: true
+      # special formatting (bold, underlined, etc)
+      special: true
+      # rgb, gradient, etc
+      rgb: true
+    format: '{prefix} &f{player} {suffix}&8: #FF9999{message}'
+  owner:
+    permission: chat.owner
+    priority: 100
+    prefix: '&fை'
+    suffix: '%alonsotags_tag_chat%'
+    color:
+      # minecraft colors
+      normal: true
+      # special formatting (bold, underlined, etc)
+      special: true
+      # rgb, gradient, etc
+      rgb: true
+    format: '{prefix} &f{player} {suffix}&8: #FF9999{message}'

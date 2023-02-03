@@ -1,0 +1,32 @@
+condition:
+  mana:
+    positive: '&a✔ &7#mana# 魔力值'
+    negative: '&c✖ &7#mana# 魔力值'
+  level:
+    positive: '&a✔ &7等级 #level#'
+    negative: '&c✖ &7等级 #level#'
+  stamina:
+    positive: '&a✔ &7#stamina# 耐力'
+    negative: '&c✖ &7#stamina# 耐力'
+  permission:
+    positive: '&a✔ &7#display#'
+    negative: '&c✖ &7#display#'
+  placeholder:
+    positive: '&a✔ &7#display#'
+    negative: '&c✖ &7#display#'
+  class:
+    positive: '&a✔ &7需求流派：#class#'
+    negative: '&c✖ &7需求流派：#class#'
+  food:
+    positive: '&a✔ &7#food# 饥饿值'
+    negative: '&c✖ &7#food# 饥饿值'
+  money:
+    positive: '&a✔ &7$#money#'
+    negative: '&c✖ &7$#money#'
+ingredient:
+  mmoitem:
+    positive: '&a✔ &7#amount# #item# #level#'
+    negative: '&c✖ &7#amount# #item# #level#'
+  vanilla:
+    positive: '&a✔ &7#amount# #item#'
+    negative: '&c✖ &7#amount# #item#'

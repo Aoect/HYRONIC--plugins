@@ -1,0 +1,59 @@
+uuid: defcadaa-bb7a-4079-902b-3844d583f981
+skills:
+  farming:
+    level: 60
+    xp: 5.0
+  foraging:
+    level: 60
+    xp: 3.9999999999999996
+  mining:
+    level: 60
+    xp: 331.1999999999981
+  fishing:
+    level: 60
+    xp: 10000.0
+  excavation:
+    level: 1
+    xp: 0.0
+  archery:
+    level: 60
+    xp: 498.0
+  defense:
+    level: 60
+    xp: 1843.5249862670898
+  fighting:
+    level: 60
+    xp: 1358.5
+  endurance:
+    level: 1
+    xp: 0.0
+  agility:
+    level: 1
+    xp: 0.0
+  alchemy:
+    level: 60
+    xp: 0.0
+  enchanting:
+    level: 60
+    xp: 0.0
+  sorcery:
+    level: 1
+    xp: 0.0
+  healing:
+    level: 1
+    xp: 0.0
+  forging:
+    level: 1
+    xp: 0.0
+mana: 1500.0
+locale: en
+ability_data:
+  xp_convert:
+    xp: 2.8625020027157007
+  first_strike:
+    counter: 240
+stat_modifiers:
+  '0':
+    name: mmoitems
+    stat: wisdom
+    value: 0.0

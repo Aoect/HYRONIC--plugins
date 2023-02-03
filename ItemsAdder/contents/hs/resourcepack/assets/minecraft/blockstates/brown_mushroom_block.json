@@ -1,0 +1,56 @@
+{
+    "multipart": [
+        {
+            "apply": {
+                "model": "custom/blocks/mythril_ore"
+            },
+            "when": {
+                "north": false,
+                "down": false,
+                "up": false,
+                "south": true,
+                "west": true,
+                "east": false
+            }
+        },
+        {
+            "apply": {
+                "model": "custom/blocks/crimstone_ore"
+            },
+            "when": {
+                "north": false,
+                "down": false,
+                "up": false,
+                "south": true,
+                "west": false,
+                "east": false
+            }
+        },
+        {
+            "apply": {
+                "model": "custom/blocks/orichalcum_ore"
+            },
+            "when": {
+                "north": false,
+                "down": false,
+                "up": false,
+                "south": false,
+                "west": true,
+                "east": false
+            }
+        },
+        {
+            "apply": {
+                "model": "custom/blocks/titanium_ore"
+            },
+            "when": {
+                "north": false,
+                "down": true,
+                "up": false,
+                "south": false,
+                "west": false,
+                "east": false
+            }
+        }
+    ]
+}

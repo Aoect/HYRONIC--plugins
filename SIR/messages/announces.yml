@@ -1,0 +1,57 @@
+announces:
+  1:
+    sound: ENTITY_PLAYER_LEVELUP
+    lines:
+      - '&a'
+      - '<C>&f௜ &#E1C16Eᴛɪᴘꜱ & ᴛʀɪᴄᴋꜱ &f௜'
+      - '<C>&7You can only hold &#FFFDD01 quest&7 at a time. Choose wisely!'
+      - '&a'
+  2:
+    sound: ENTITY_PLAYER_LEVELUP
+    lines:
+      - '&a'
+      - '<C>&f௜ &#E1C16Eᴛɪᴘꜱ & ᴛʀɪᴄᴋꜱ &f௜'
+      - '<C>&7Mob with &f௝&7 on its nametag is a &#FFFDD0boss&7! Beware!'
+      - '&a'
+  3:
+    sound: ENTITY_PLAYER_LEVELUP
+    lines:
+      - '&a'
+      - '<C>&f௜ &#E1C16Eᴛɪᴘꜱ & ᴛʀɪᴄᴋꜱ &f௜'
+      - '<C>&7Mobs near &#FFFDD0high combat skills levels&7 have &#FFFDD0higher&7 levels.'
+      - '&a'
+  4:
+    sound: ENTITY_PLAYER_LEVELUP
+    lines:
+      - '&a'
+      - '<C>&f௜ &#E1C16Eᴛɪᴘꜱ & ᴛʀɪᴄᴋꜱ &f௜'
+      - '<C>&#FFFDD0Stunned&7 mobs cannot &#FFFDD0move, attack or cast abilities&7!'
+      - '&a'
+  5:
+    sound: ENTITY_PLAYER_LEVELUP
+    lines:
+      - '&a'
+      - '<C>&f௜ &#E1C16Eᴛɪᴘꜱ & ᴛʀɪᴄᴋꜱ &f௜'
+      - '<C>&#FFFDD0Stunned&7 mobs cannot &#FFFDD0move, attack or cast abilities&7!'
+      - '&a'
+  6:
+    sound: ENTITY_PLAYER_LEVELUP
+    lines:
+      - '&a'
+      - '<C>&f௜ &#E1C16Eᴛɪᴘꜱ & ᴛʀɪᴄᴋꜱ &f௜'
+      - '<C>&#FFFDD0Holy Water&7 can cleanse most kinds of &#FFFDD0debuffs&7!'
+      - '&a'
+  7:
+    sound: ENTITY_PLAYER_LEVELUP
+    lines:
+      - '&a'
+      - '<C>&f௜ &#E1C16Eᴛɪᴘꜱ & ᴛʀɪᴄᴋꜱ &f௜'
+      - '<C>&7There seems to be a mysterious &#FFFDD0portal&7 at spawn!'
+      - '&a'
+  8:
+    sound: ENTITY_PLAYER_LEVELUP
+    lines:
+      - '&a'
+      - '<C>&f௜ &#E1C16Eᴛɪᴘꜱ & ᴛʀɪᴄᴋꜱ &f௜'
+      - '<C>&7Skills are really important!'
+      - '&a'

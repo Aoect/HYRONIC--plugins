@@ -1,0 +1,146 @@
+# Weapon Stats
+attack-damage: '&c🗡 &7Attack Damage: &f#'
+attack-speed: '<HEXCD5C5C>🔱 &7Attack Speed: &f<plus>MATH%((#-4)/4)*100%%'
+critical-strike-chance: '&9☣ &7Crit Chance: &f<plus>#%'
+critical-strike-power: '&9☠ &7Crit Damage: &f<plus>#%'
+range: '&e🏹&7 Range: &f#'
+mana-cost: '&3 &7■ Uses &9# Mana'
+stamina-cost: '&3 &7■ Uses &9# Stamina'
+arrow-velocity: '&e➹ &7Arrow Velocity: &f#'
+blunt-power: '&3 &7■ Blunt Power: &f#'
+blunt-rating: '&3 &7■ Blunt Rating: &f#%'
+two-handed: '&3 &7■ Two Handed'
+handworn: '&3 &7■ Handworn'
+knockback: '&3 &7■ Knockback: &f#'
+recoil: '&3 &7■ Recoil: &f#%'
+note-weight: '&3 &7■ Note Weight: &f#'
+lifesteal: '&c❣&7 Lifesteal: &f#%'
+spell-vampirism: '<HEX9966cc>❣&7 Ability Vamp: &f#%'
+
+# Extra Damage
+pve-damage: '&a🗡 &7Mob Damage: &f<plus>#%'
+pvp-damage: '<HEX800000>🗡 &7PvP Damage: &f<plus>#%'
+magic-damage: '<HEX9966cc>۞ &7Magic Damage: &f<plus>#%'
+weapon-damage: '&4🗡 &7Weapon Damage: &f<plus>#%'
+undead-damage: '<HEXa2c42f>🗡 &7Undead Damage: &f<plus>#%'
+skill-damage: '<HEX9966cc>۞ &7Ability Damage: &f<plus>#%'
+physical-damage: '<HEXFFA07A>🗡 &7Physical Damage: &f<plus>#%'
+projectile-damage: '&6🏹&7 Projectile Damage: &f<plus>#%'
+faction-damage-undead: '&3 &7■ Undead Faction Damage: &f<plus>#%'
+
+# Abilities
+ability-format: '&a>&8| &7#c &8|&e|&8| &7&l#a'
+ability-modifier: ' &3>&8|&7 #m&8: &f#v'
+ability-splitter: '&8'
+
+# Armor Stats
+block-power: '&3 &7■ Block Power: &f<plus>#%'
+block-rating: '&3 &7■ Block Rating: &f<plus>#%'
+block-cooldown-reduction: '&3 &7■ Block Cooldown Reduction: &f<plus>#%'
+dodge-rating: '&3 &7■ Dodge Rating: &f<plus>#%'
+dodge-cooldown-reduction: '&3 &7■ Dodge Cooldown Reduction: &f<plus>#%'
+parry-rating: '&3 &7■ Parry Rating: &f<plus>#%'
+parry-cooldown-reduction: '&3 &7■ Parry Cooldown Reduction: &f<plus>#%'
+armor: '&a🛡&7 Armor: &f<plus>#'
+armor-toughness: '&3 &7✠ Armor Toughness: &f<plus>#'
+knockback-resistance: '&3☄ &7Tenacity: &f<plus>#%'
+max-health: '&c❤ &7Health:&f <plus>#'
+movement-speed: '<HEXADD8E6>☁ &7Speed: &f<plus>MATH%#*10%%'
+
+# Damage Reduction
+defense: '&f🛡 &7Defense: &f<plus>#'
+damage-reduction: '<HEXffffe0>⌀ &7Damage Reduct: &f<plus>#%'
+fall-damage-reduction: '<HEXADD8E6>⌀ &7Fall Damage Reduct: &f<plus>#%'
+fire-damage-reduction: '<HEXFFD580>⌀ &7Fire Damage Reduct: &f<plus>#%'
+magic-damage-reduction: '&3 &7■ Magic Damage Reduct: &f<plus>#%'
+projectile-damage-reduction: '&6⌀ &7Projectile Damage Reduct: &f<plus>#%'
+physical-damage-reduction: '<HEXFFA07A>⌀ &7Normal Damage Reduct: &f<plus>#%'
+pve-damage-reduction: '&3 &7■ PvE Damage Reduction: &f<plus>#%'
+pvp-damage-reduction: '&3 &7■ PvP Damage Reduction: &f<plus>#%'
+
+# RPG stats
+health-regeneration: '&3 &7■ Health Regeneration: &f<plus>#'
+max-mana: '&b✎ &7Max Mana: &f<plus>#'
+mana-regeneration: '&3 &7■ Mana Regeneration: &f<plus>#'
+max-stamina: '&3 &7■ Max Stamina: &f<plus>#'
+stamina-regeneration: '&3 &7■ Stamina Regeneration: &f<plus>#'
+cooldown-reduction: '&3⌛ &7Ability Haste: &f<plus>#%'
+additional-experience: '&6★ &7Additional Experience: &f<plus>#%'
+additional-experience-alchemy: '&7■ Additional Alchemy Experience: &f<plus>#%'
+additional-experience-enchanting: '&7■ Additional Enchanting Experience: &f<plus>#%'
+additional-experience-farming: '&7■ Additional Farming Experience: &f<plus>#%'
+additional-experience-fishing: '&7■ Additional Fishing Experience: &f<plus>#%'
+additional-experience-mining: '&7■ Additional Mining Experience: &f<plus>#%'
+additional-experience-smelting: '&7■ Additional Smelting Experience: &f<plus>#%'
+additional-experience-smithing: '&7■ Additional Smithing Experience: &f<plus>#%'
+additional-experience-woodcutting: '&7■ Additional Woodcutting Experience: &f<plus>#%'
+
+# Extra Options
+perm-effect: '&3 &7■ Permanent &f#'
+command: '&3 &7■ Command: &f#c &3 &7(&f#d&3 &7s)'
+item-cooldown: '&3 &7■ &f#&3 &7s Cooldown'
+arrow-potion-effects: '&3 &7■ Arrow Effect: &f#'
+
+# Consumables
+restore-health: '&3 &7■ Restores &f# &7Health'
+restore-food: '&3 &7■ Restores &f# &7Food'
+restore-saturation: '&3 &7■ Restores &f# &7Saturation'
+restore-mana: '&3 &7■ Restores &f# &7Mana'
+restore-stamina: '&3 &7■ Restores &f# &7Stamina'
+effect: '&3 &7■ Grants &f#e &7for &f#d &7s'
+repair: '&3 &7■ Repair: &f#'
+repair-percent: '&3 &7■ Repair: &f#%'
+can-identify: '&3 &7■ Can identify items.'
+can-deconstruct: '&3 &7■ Can deconstruct tiered items.'
+can-deskin: '&3 &7■ Can de-skin skinned items.'
+success-rate: '&3 &7■ Success Rate: &a&l#%'
+max-consume: '&3 &7■ &f# &7Uses Left'
+
+# Gem Stones
+empty-gem-socket: '&f◇ &7Rune Slot &8(&3#&8)'
+filled-gem-socket: '#'
+when-applied: '&aWhen Applied:'
+gem-stone-lore: '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+
+# Soulbound
+soulbinding-chance: '&3 &7■ Has a &a#% &7chance to bind your item.'
+soulbound-break-chance: '&3 &7■ Has a &a#% &7chance to break soulbounds.'
+soulbound-level: '&3 &7■ Level &e# &7Soulbound'
+
+# Tools
+autosmelt: '&3 &7■ &fAutosmelt'
+bouncing-crack: '&3 &7■ &fBouncing Crack'
+pickaxe-power: '&e⛏ &7Pickaxe Power: &f#'
+durability: '&8Durability: &3#c/#m'
+
+# General
+item-type: '&8#'
+tier: '&f#'
+required-class: '&3 &7# Item'
+required-level: '&eRequires Lvl #'
+
+# Attributes
+required-dexterity: '&eRequires &c# &eDexterity'
+required-strength: '&eRequires &c# &eStrength'
+required-intelligence: '&eRequires &c# &eIntelligence'
+
+# Professions
+profession-alchemy: '&eAlchemy Level: &c#'
+profession-enchanting: '&eEnchanting Level: &c#'
+profession-farming: '&eFarming Level: &c#'
+profession-fishing: '&eFishing Level: &c#'
+profession-mining: '&eMining Level: &c#'
+profession-smelting: '&eSmelting Level: &c#'
+profession-smithing: '&eSmithing Level: &c#'
+profession-woodcutting: '&eWoodcutting Level: &c#'
+
+# Elemental Stat Format
+elemental-damage:          '#color#icon&7 # #name Damage'
+elemental-damage-percent:  '#color#icon&7 +#% #name Damage'
+elemental-defense:         '#color#icon&7 # #name Defense'
+elemental-defense-percent: '#color#icon&7 +#% #name Defense'
+elemental-weakness:        '#color#icon&7 #% #name Weakness'
+
+wisdom: '&aAdd # wisdom'
+
+goop-misc-a: '&b≈ &7Mining Speed: &f<plus>#'

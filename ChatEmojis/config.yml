@@ -1,0 +1,100 @@
+rank:
+  iron:
+    happy:
+      emoticon: ':happy:'
+      emoji: '&fぢ'
+    triggered:
+      emoticon: ':triggered:'
+      emoji: '&fっ'
+    sad:
+      emoticon: ':sad:'
+      emoji: '&fつ'
+    neutral:
+      emoticon: ':neutral:'
+      emoji: '&fづ'
+    beard:
+      emoticon: ':beard:'
+      emoji: '&fて'
+    shocked:
+      emoticon: ':shocked:'
+      emoji: '&fで'
+  gold:
+    haha:
+      emoticon: ':haha:'
+      emoji: '&fと'
+    outrage:
+      emoticon: ':outrage:'
+      emoji: '&fど'
+    aw:
+      emoticon: ':aw:'
+      emoji: '&fに'
+    butbut:
+      emoticon: ':butbut:'
+      emoji: '&fぬ'
+    butidontwantit:
+      emoticon: ':butidontwantit:'
+      emoji: '&fね'
+    dood:
+      emoticon: ':dood:'
+      emoji: '&fろ'
+  redstone:
+    handsome:
+      emoticon: ':handsome:'
+      emoji: '&fは'
+    depressedboy:
+      emoticon: ':depressedboy:'
+      emoji: '&fば'
+    chick:
+      emoticon: ':chick:'
+      emoji: '&fぱ'
+    sleepy:
+      emoticon: ':sleepy:'
+      emoji: '&fび'
+    niceboy:
+      emoticon: ':niceboy:'
+      emoji: '&fぴ'
+    grrr:
+      emoticon: ':grrr:'
+      emoji: '&fふ'
+  diamond:
+    mom:
+      emoticon: ':mom:'
+      emoji: '&fぶ'
+    ohreally:
+      emoticon: ':ohreally:'
+      emoji: '&fぷ'
+    quiet:
+      emoticon: ':quiet:'
+      emoji: '&fへ'
+    soproud:
+      emoticon: ':soproud:'
+      emoji: '&fべ'
+    sadboy:
+      emoticon: ':sadboy:'
+      emoji: '&fぺ'
+    saywhatnow:
+      emoticon: ':saywhatnow:'
+      emoji: '&fほ'
+  emerald:
+    sexy:
+      emoticon: ':sexy:'
+      emoji: '&fぼ'
+    stunned:
+      emoticon: ':stunned:'
+      emoji: '&fぽ'
+    tiredofit:
+      emoticon: ':tiredofit:'
+      emoji: '&fみ'
+    triggered:
+      emoticon: ':triggered:'
+      emoji: '&fむ'
+    yaranaika:
+      emoticon: ':yaranaika:'
+      emoji: '&fる'
+    sunglasses:
+      emoticon: ':sunglasses:'
+      emoji: '&fり'
+settings:
+  use:
+    books: true
+    signs: true

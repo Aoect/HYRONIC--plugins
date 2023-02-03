@@ -1,0 +1,53 @@
+Command:
+  List:
+    Desc: 'Список всех пользовательских зачарований.'
+  Enchant:
+    Usage: '<чары> <уровень>'
+    Desc: 'Зачаровывает предмет в вашей руке.'
+    Done: '&aУспешно зачаровано!'
+  Book:
+    Usage: '<игрок> <чары> <уровень>'
+    Desc: 'Даёт книгу с выбранным зачарованием.'
+    Done: 'Книга зачарования &6%enchant%&7 выдана &6%player%&7.'
+  TierBook:
+    Usage: '<игрок> <класс> <уровень>'
+    Desc: 'Даёт книгу со случайными чарами определенного класса.'
+    Error: '&cНеверный уровень!'
+    Done: 'Зачарованная книга класса &6%tier%&7 выдана &6%player%&7.'
+Error:
+  NoEnchant: '&cЗачарование не существует.'
+EnchantmentTarget:
+  ALL: Всё
+  ARMOR: Броня
+  ARMOR_FEET: Ботинки
+  ARMOR_LEGS: Ноги
+  ARMOR_TORSO: Грудь
+  ARMOR_HEAD: Голова
+  WEAPON: Оружие
+  TOOL: Инструмент
+  BOW: Лук
+  FISHING_ROD: Удочка
+  BREAKABLE: Ломаемое
+  WEARABLE: Надеваемое
+  TRIDENT: Трезубец
+  CROSSBOW: Арбалет
+  VANISHABLE: Утрачиваемое
+  BOW_AND_CROSSBOW: Лук и Арбалет
+FitItemType:
+  HELMET: Шлем
+  CHESTPLATE: Нагрудник
+  LEGGINGS: Поножи
+  BOOTS: Ботинки
+  ELYTRA: Элитры
+  WEAPON: Оружие
+  TOOL: Инструмент
+  ARMOR: Броня
+  SWORD: Меч
+  TRIDENT: Трезубец
+  AXE: Топор
+  BOW: Лук
+  CROSSBOW: Арбалет
+  HOE: Мотыга
+  PICKAXE: Кирка
+  SHOVEL: Лопата
+  FISHING_ROD: Удочка

@@ -1,0 +1,78 @@
+name: "&c&lWorld &7&lHistory"
+discover_title:
+  title: "&c&lCODEX UPDATED"
+  subtitle: "&7World History: %name%"
+  fade_in: 0
+  stay: 0
+  fade_out: 0
+discover_message:
+- "&6&lCODEX UPDATED!&7 %name%&7 has been added to your codex!"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&cReanimated Corpse"
+    lore:
+    - ""
+    - "&3♦ Stats:"
+    - "&7Health: &c2,000❤"
+    - "&7Damage: &c25 &8(Melee)"
+    - ""
+    - "&6★ Ability:"
+    - "&7Teleports at targets and"
+    - "&7slashes them repeatedly."
+    - "&7"
+    - "&d❃ Drops:"
+    - "&7None`"
+    discovered_on_mob_kill: 
+      mythic_mobs_id: HexWarrior
+  2:
+    name: "&cHexified Blasters"
+    lore:
+    - ""
+    - "&3♦ Stats:"
+    - "&7Health: &c1,450❤"
+    - "&7Damage: &cMedium &8(Ranged)"
+    - ""
+    - "&6★ Ability:"
+    - "&7Shoots Hex Arrows which"
+    - "&7inflict Hex Flame."
+    - "&7"
+    - "&d❃ Drops:"
+    - "&7None, dungeon drops."
+    discovered_on_mob_kill: 
+      mythic_mobs_id: HexArcher
+  3:
+    name: "&cHexrathon Runners"
+    lore:
+    - ""
+    - "&3♦ Stats:"
+    - "&7Health: &c900❤"
+    - "&7Damage: &c35 &8(Melee)"
+    - ""
+    - "&6★ Ability:"
+    - "&7Charges at players dealing"
+    - "&7high damage."
+    - "&7"
+    - "&d❃ Drops:"
+    - "&7None, dungeon drops."
+    discovered_on_mob_kill: 
+      mythic_mobs_id: HexSprinter
+  4:
+    name: "&cHexmancer"
+    lore:
+    - ""
+    - "&3♦ Stats:"
+    - "&7Health: &c3,500❤"
+    - "&7Damage: &cHigh &8(Ability)"
+    - ""
+    - "&6★ Ability:"
+    - "&7Shoots disabling hex"
+    - "&7beams."
+    - "&7"
+    - "&d❃ Drops:"
+    - "&7None, dungeon drops."
+    discovered_on_mob_kill: 
+      mythic_mobs_id: Hexmancer

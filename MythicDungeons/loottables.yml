@@ -1,0 +1,351 @@
+Tables:
+  coven:
+    ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTable
+    minItems: 1
+    maxItems: 3
+    namespace: coven
+    lootItems:
+      18:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: GOLD_INGOT
+          amount: 16
+        weight: 64
+      19:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: DIAMOND
+          amount: 8
+        weight: 64
+      20:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: EMERALD
+          amount: 8
+        weight: 64
+      21:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: NETHERITE_INGOT
+        weight: 64
+      9:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 3
+        maxItems: 12
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"italic":false,"color":"white","extra":[{"color":"#2335a4","text":"N"},{"color":"#2434a0","text":"i"},{"color":"#26339c","text":"g"},{"color":"#273298","text":"h"},{"color":"#283193","text":"t"},{"color":"#29308f","text":"m"},{"color":"#2b2f8b","text":"a"},{"color":"#2c2f87","text":"r"},{"color":"#2d2e83","text":"e"},{"text":"
+              "},{"color":"#302c7b","text":"F"},{"color":"#312b76","text":"u"},{"color":"#322a72","text":"e"},{"color":"#34296e","text":"l"}],"text":""}'
+            lore:
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"gray","text":"Being near this induces"}'
+            - '{"italic":false,"color":"gray","text":"petrifying nightmares."}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"white","text":"🐹"}'
+            custom-model-data: 25
+            attribute-modifiers:
+              GENERIC_ATTACK_SPEED:
+              - ==: org.bukkit.attribute.AttributeModifier
+                amount: 0.0
+                name: mmoitemsDecoy
+                uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+                operation: 0
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+            internal: H4sIAAAAAAAA/52QwUrDQBCGR70EwaKCBz2FLYgH8dBYLUHEtdmmC9mNZLeHEsISNG0DNkqyPZTSd/ER9OjBk8/TdzAtNFi8eZnDfP/M/PPvAhhwxJhPJWFCOX2OGW0rzw8I0BChc3R6fZ+k2dDMkjg39SgtzDR7mjwmxYq9JjpPB9OVIB2O9DjOk+KiREs6WLx9Ld4/UWTAYXViWZXsPxAwGJYkoNgzYH8TUwdqnLpdyXBAVKdHSsleJSktEji7cQPsUMKlXW9YVjO+tOtWs9G6im/52ojZmSTPBtS6QgZ9RXi7i7kUcDdDQsca2WjdKs36rtAv+RTZ4QxVl9ZcfX8UOi8HwgjNo/kOnFSSdk9InynmO8RTDpYYAI4NOPizA7bD6PcXq4hb4f/y3dgkKQlgS8APl1txy8wBAAA=
+        weight: 128
+      13:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"italic":false,"color":"white","text":"Hexim Necklace"}'
+            lore:
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"gray","text":"Used to upgrade Apocalypse"}'
+            - '{"italic":false,"color":"gray","text":"armor or convert specialized"}'
+            - '{"italic":false,"color":"gray","extra":[{"color":"light_purple","text":"Hexim"}],"text":"Apocalypse
+              armor into "}'
+            - '{"italic":false,"color":"gray","text":"armor in smithing table."}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":true,"color":"gray","extra":[{"italic":true,"color":"light_purple","extra":[{"italic":true,"color":"gray","text":"
+              - The Elder"}],"text":"Hexim"}],"text":"Belongs to "}'
+            - '{"italic":true,"color":"gray","text":"God. The cruel tyrant of all"}'
+            - '{"italic":true,"color":"gray","text":"realms, his reign of terror"}'
+            - '{"italic":true,"color":"gray","extra":[{"italic":true,"color":"dark_purple","text":"the
+              witch"}],"text":"only stopped when "}'
+            - '{"italic":true,"color":"gray","text":"sarcrificed herself, causing"}'
+            - '{"italic":true,"color":"gray","text":"a huge magical blast to erupt"}'
+            - '{"italic":true,"color":"gray","text":"killing all four primordal gods"}'
+            - '{"italic":true,"color":"gray","text":"and fragmenting all realms."}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"white","text":"🐹"}'
+            custom-model-data: 10
+            attribute-modifiers:
+              GENERIC_ATTACK_SPEED:
+              - ==: org.bukkit.attribute.AttributeModifier
+                amount: 0.0
+                name: mmoitemsDecoy
+                uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+                operation: 0
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+            internal: H4sIAAAAAAAA/+1Ty27TQBQdwyaqRAVILCgsrrzIKnSHkLrCdYbEInYq25Woosia2hN71InHmhlTQtV/YckSll2w4nv6D4ydJwp8ABLSyIt7zj3jc+7cA4Q66Jnvj70Y+1HSvwgc33OT0TjE1t3Etnt29825ohloAXWVS5JRcCqREr6oFG1hIudCgjmpKD9SqUFVNGWEs880awlbPiy5rDRq3WxIP7H5jgQrQc2ZLliZgyaXnB4bsMW74pRyUeYK2sauaFubOryCuKCAeUblijoQ2XFbTGVNOeiFJKUGMQPC+YoiKeFz1YOCKZCU5WUDayqlWIuIki9AaVFVxvt1QUvovu4KbVSvmU6LFUsRmUo2Y6khFVQqymc9SEmtjIUVhUBR5xTmJGcmBLjkROnGBZV1pVecK8Z5Y9r8IMxELaGSzASSGX4uMrVWKjOYSZLPaanX7KWRdU6z+y8/7r/d2dMOerwZafNNvD46HOIPnp8E2H0/clxsoZfbqXuRczrCiRfEOHTc2BsHVgc92uDmTWDT32QOAU2vOElpBz3Z4Dhwh04QR+jBZPoQHW3q7nkUj/3EH/fxKOk7sYMQOrDQi72LVwJeMLAs9HwPdkPn3V/ByPfi4RI82gNDfOZ4YYN20NPfI4kvzjDq+I6x7DmjPyvjUbzsPRxGcXixNfr2xo400faJvS6Z/MeDSAu5sE8mN/ZeNsnP70pL0zCZ2rfT291422X7Ovm/af/Cpk13Jxd7OERWhH4Bp+5bvUYFAAA=
+        weight: 32
+      14:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"italic":false,"color":"white","text":"Mortos Belt"}'
+            lore:
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"gray","text":"Used to upgrade Apocalypse"}'
+            - '{"italic":false,"color":"gray","text":"armor or convert specialized"}'
+            - '{"italic":false,"color":"gray","extra":[{"color":"dark_aqua","text":"Mortos"}],"text":"Apocalypse
+              armor into "}'
+            - '{"italic":false,"color":"gray","text":"armor in smithing table."}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":true,"color":"gray","extra":[{"italic":true,"color":"dark_aqua","extra":[{"italic":true,"color":"gray","text":"
+              - the God"}],"text":"Mortos"}],"text":"Belongs to "}'
+            - '{"italic":true,"color":"gray","text":"of Death. A loyal companion"}'
+            - '{"italic":true,"color":"gray","text":"to Hexim, his mere presence"}'
+            - '{"italic":true,"color":"gray","text":"was a sign of total calamity."}'
+            - '{"italic":true,"color":"gray","text":"Was destroyed alongside the"}'
+            - '{"italic":true,"color":"gray","extra":[{"italic":true,"color":"red","text":"the"}],"text":"four
+              primordal gods when "}'
+            - '{"italic":true,"color":"red","extra":[{"italic":true,"color":"gray","text":"
+              ended."}],"text":"war"}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"white","text":"🐹"}'
+            custom-model-data: 11
+            attribute-modifiers:
+              GENERIC_ATTACK_SPEED:
+              - ==: org.bukkit.attribute.AttributeModifier
+                amount: 0.0
+                name: mmoitemsDecoy
+                uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+                operation: 0
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+            internal: H4sIAAAAAAAA/+2TsY7TQBCG19BYnECARMFBMXKR6khDgXQVm8SXWIrtk70nFEWRtdibZCXHa3n3OMzpSt6DR4CSgornuXdg4viSoEBLhWS52O+ff2f+0T4gxCbPfD/0mOvHyWASUN/rJ+Mwcq3PU8c5cTpvLrTIwCi4LBcVzwTQUqU8r0stGsyrlaoAv1QVH0RlQJcilTyXn0TWCHZ62GhlgW6d176qjNJ7HrIAvZJmKYsFGP4+F12EDe+onshVsdDQVHbUpnYN4BWYpYChylqlmsNAcLPsAoVc1TzHxlYlL6QqWgV6jMRHuTqBpdSwEpWAshJaFKloFVdcAwctFwWgnVFm7cJzjt3V3VbzDjWZ0KZSNebDm/YkxoPdtIq5uqzQWeJsGRosVKbhaikK6KTYxEaWri+rmkFEkYnsbuT57Zcft1+/OzObPN6uZ/1PvAE58sOIhXHSc8fMIi936/Ni2hu7iRcwN6J95oWBZZOHW47LdbG4yQ4wUWOTJ1voBv0RDVhM7k1n98nx9rx/EbPQT/xw4I6TAWWUEHJkkRcHt7YGXjC0LPL8APcjevZXGPseG23g8QGM3HPqRWtqk6e/h8Em5y6xfYrzenT8Z2cMaVP7aBSzaLIb9O21ExtunFPn7giTD4exUVXtnE6vnYNskp/fcOFYMJ05N7Ob/WybJ2Om/9/Lv34vs/0tMM+NiBWTX+ocdQ7YBAAA
+        weight: 32
+      15:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"italic":false,"color":"white","text":"Caeletus Ring"}'
+            lore:
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"gray","text":"Used to upgrade Apocalypse"}'
+            - '{"italic":false,"color":"gray","text":"armor or convert specialized"}'
+            - '{"italic":false,"color":"gray","text":"Apocalypse armor into the"}'
+            - '{"italic":false,"color":"gold","extra":[{"color":"gray","text":" armor
+              via smithing"}],"text":"Caeletus"}'
+            - '{"italic":false,"color":"gray","text":"table."}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":true,"color":"gray","extra":[{"italic":true,"color":"gold","extra":[{"italic":true,"color":"gray","text":"
+              - God of"}],"text":"Caeletus"}],"text":"Belongs to "}'
+            - '{"italic":true,"color":"gray","text":"Peace and Wealth. The only god"}'
+            - '{"italic":true,"color":"gray","text":"on human\u0027s side, Caeletus
+              went"}'
+            - '{"italic":true,"color":"gray","text":"against the other gods, fighting"}'
+            - '{"italic":true,"color":"gray","text":"with humans in the war, before"}'
+            - '{"italic":true,"color":"gray","text":"sarcrificing itself to protect"}'
+            - '{"italic":true,"color":"gray","text":"Hyronia from destruction at the"}'
+            - '{"italic":true,"color":"gray","extra":[{"italic":true,"color":"red","extra":[{"italic":true,"color":"gray","text":"."}],"text":"the
+              war"}],"text":"end of "}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"white","text":"🐹"}'
+            custom-model-data: 12
+            attribute-modifiers:
+              GENERIC_ATTACK_SPEED:
+              - ==: org.bukkit.attribute.AttributeModifier
+                amount: 0.0
+                name: mmoitemsDecoy
+                uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+                operation: 0
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+            internal: H4sIAAAAAAAA/+1TwW7TMBh24BIhhgCJA4ODlUO4lB03aSey1LSRmqRKXKGpqiIvcVJLaVzZ7qoy7V14BDjuwIkb77J3wEmTdqjwAEhIkZX4+/7v/7/P8RMATPDK90MPIz9O+peB43tuMgojZPycWlbPss8mkmZQcbhaFoJkFDpLnpJys5S0gYlYcAH1k/LqmgoF5ZKmjJTsM80awp4Pt1xWaTU1b8pPXUJLqlbSPmvRa0agXDA1Z1XR1CtyVdIT/dp82fyClrwqZD2SfWrzvYDN4Xs44BnkeUsdU5LqrlUGP1FSqvkJxHMKeVVuYMGzlsQrOF8tSPVOQsky2oOdIlzTSrUkUhBWSVWPDbleRC0gezBnxVx1k9p8refeqklts2GviejBK5pzQVuSJCIVLGeproNMSVrmtZml4IqmXcPhRvBKR5ELvoAZlUqsUsX0rER12WkWrWq30E5t3vaqd7uw8vsv3++/3lkzEzzfnXG9Jl4fHLkOGiE8iZPICwYGeLv/C7zYuRihxAswihwXe2FgmOBoh+t/BOnyLqVI2zDBix2MAnfoBDgGj6azx+B4t+9OYhz6iR/20SjpO9gBADw1wJuDvq1APZUBXh/AbuR8/CsY+x4ebsHjAzBCY8dr3Jrg5e+B4MsxAqbvaMeeM/qzMhrhbe2zYYyjy73RDzdWrIiyzq1uS6cfDmLFxcY6n95YB9kkP77pE9UF05l1O7t9mG5z9+6m/y/eP3nxZg+PEnsoAkYMfgEnjNEnZgUAAA==
+        weight: 32
+      16:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"italic":false,"color":"white","text":"Quinerus Cloak"}'
+            lore:
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"gray","text":"Used to upgrade Apocalypse"}'
+            - '{"italic":false,"color":"gray","text":"armor or convert specialized"}'
+            - '{"italic":false,"color":"gray","text":"Apocalypse armor into the"}'
+            - '{"italic":false,"color":"dark_red","extra":[{"color":"gray","text":"
+              armor via smithing"}],"text":"Quinerus"}'
+            - '{"italic":false,"color":"gray","text":"table."}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":true,"color":"gray","extra":[{"italic":true,"color":"dark_red","extra":[{"italic":true,"color":"gray","text":"
+              - God of"}],"text":"Quinerus"}],"text":"Belongs to "}'
+            - '{"italic":true,"color":"gray","text":"war and destruction. Quinerus"}'
+            - '{"italic":true,"color":"gray","text":"was on neutral side when the"}'
+            - '{"italic":true,"color":"gray","text":"war happened, but still fought"}'
+            - '{"italic":true,"color":"gray","text":"because of its thirst for war"}'
+            - '{"italic":true,"color":"gray","text":"Was destroyed alongside the"}'
+            - '{"italic":true,"color":"gray","extra":[{"italic":true,"color":"red","text":"the"}],"text":"four
+              primordal gods when "}'
+            - '{"italic":true,"color":"red","extra":[{"italic":true,"color":"gray","text":"
+              ended."}],"text":"war"}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"white","text":"🐹"}'
+            custom-model-data: 13
+            attribute-modifiers:
+              GENERIC_ATTACK_SPEED:
+              - ==: org.bukkit.attribute.AttributeModifier
+                amount: 0.0
+                name: mmoitemsDecoy
+                uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+                operation: 0
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+            internal: H4sIAAAAAAAA/+1Ty2rbQBQdtRtRSGgLXTTtYtBCqzSrQCCrKvLEHqpHIskUY4wYS2NrqDIjRqMEN+RfuuyyXWbRVb8n/9CxLNspbj+gUBBC0jnn3nPP1TwDwASvfD/ECfLjtDcKHB+7qRdGyLgfW9ahZZ8Ma5pDJWBTzSXJKXQqkZFyUdW0hYm8EhLqKxP8mkoF64pmjJTsM81bwpYPV1zGdTVVtPLjy4ZxKpvaPunQa0ZgfcVUwfi81SsyLemRfmzfbHFGS8Hn9dKSfWyLbQFbwHewL3IoZh31hkhIeA5zWivZZIoJfgTXgg2nhoJDThslSQlrpke8KShfO+zKFKSqKKf5IZw2ekbFyhLORDMvVEea0ow0ekYxg0xpdwWTtdIUCbW843zUvVovYqEzJe0cy37bVrqkhJVkOolcu5mLvF65sTNbdLSsddTOS3lO83U2s4cvPx6+3VsTEzzfrHR5T3EP7F8OcYCiYZy6Xuh8MMDb7dZx7Jx5KMVBgiLHTXAYGCbY2+D6n0Ba38UG3VKQTyZ4scFR4A6cIInBk/HkKTjYfHeHcRL6qR/2kJf2nMQBAOwZ4M1O464ADvqGAV7vwG7knP8VjH2cDFbgwQ4YoQsHR0vUBC9/jyQZXSBg+o4eGTvenysjL1lp9wdxEo22g76/tWJFlHVqrT/p/MN+rIRcWKfjW2snm/Tnd712LRhPrLvJ3eN428P2dfz/pP0LJ23yeHMJRhEwYvALtQYP/0YFAAA=
+        weight: 32
+      10:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"italic":false,"color":"white","text":"Broken Handle"}'
+            lore:
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"gray","text":"The remain of once a powerful"}'
+            - '{"italic":false,"color":"gray","text":"weapon. Maybe the blacksmith"}'
+            - '{"italic":false,"color":"gray","text":"can restore it?"}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"white","text":"஻"}'
+            custom-model-data: 27
+            attribute-modifiers:
+              GENERIC_ATTACK_SPEED:
+              - ==: org.bukkit.attribute.AttributeModifier
+                amount: 0.0
+                name: mmoitemsDecoy
+                uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+                operation: 0
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+            internal: H4sIAAAAAAAA/7WQz0rDQBDGR70sQv0HXvSy7MGTeBV60TVZbCCbSLKCIYRlGzc0tE1KulJK6SsJnj36Ij6K20CDxbOXOXzzm2++mUMABOech55gPJZuElDuOdIPIwZFSsg1uboVI40bPVVlhesC11WuscKzeqGb4m3SEgutZnV1g7laDjU2lh9OVD6eT0szaoFcVdZibupG49LcWW0jF9/vnyRDcNbt31QpkicGiFPBIo/6CE52254Lxw71bU6RyAENXJ8h6HWMPYBB76Gpx7rCA1W9TjSCo0EsokSywLEDIob7FYmNMqRPtpLNEz7GNuCS9NMV6ey2ffn1MTeNHUgzss7WB3DRIc5zLEIueegyX7pUUAC4RHD6xwP20+x31PbLL+n/vHhnk/BYBHsUfgC4NKJF7wEAAA==
+        weight: 4
+      11:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"italic":false,"color":"white","text":"Broken Bow"}'
+            lore:
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"gray","text":"The remain of once a powerful"}'
+            - '{"italic":false,"color":"gray","text":"weapon. Maybe the blacksmith"}'
+            - '{"italic":false,"color":"gray","text":"can restore it?"}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"white","text":"஻"}'
+            custom-model-data: 28
+            attribute-modifiers:
+              GENERIC_ATTACK_SPEED:
+              - ==: org.bukkit.attribute.AttributeModifier
+                amount: 0.0
+                name: mmoitemsDecoy
+                uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+                operation: 0
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+            internal: H4sIAAAAAAAA/7WQwUoDMRCGR70EUdGCF/EQcuhJvAq9aLob7GKzKbsRLMsS0pKlpe1GtpFSSl9J8OzRF/FRTAtdLJ69zOGfb/75Z44BEFxyLiLJeKrCfkx5FKiuSBgUGSE3pHknRwZXZqbHJbYFtuXQYI1f7cJUxdt0SyyMfrXlLeZ6OTDYeX4w1cPJfDZ2oy0w1KW3mDtbGTx2917byMX3+yfJETTq/ZuqZL/HAHEqWRLRLoLz/XYUQiOgkqYyEb0OU+1EPLEYwWmN+RsYnDSLdmUnpsRtu0Bw1vF8X7E46NBYpvCwIqnTjrTITvKJxGPqIy5JK1uR2m3XV18fc1f5gSwn63x9BFc1EjynUnDFRci6KvTZAOAawcUfDzjM8t9Jt39+yf7nyXubZMQSOKDwA/jthq7xAQAA
+        weight: 4
+      12:
+        ==: net.playavalon.mythicdungeons.dungeons.rewards.LootTableItem
+        minItems: 1
+        maxItems: 1
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2975
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"italic":false,"color":"white","text":"Broken Staff"}'
+            lore:
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"gray","text":"The remain of once a powerful"}'
+            - '{"italic":false,"color":"gray","text":"weapon. Maybe the blacksmith"}'
+            - '{"italic":false,"color":"gray","text":"can restore it?"}'
+            - '{"italic":false,"text":""}'
+            - '{"italic":false,"color":"white","text":"஻"}'
+            custom-model-data: 29
+            attribute-modifiers:
+              GENERIC_ATTACK_SPEED:
+              - ==: org.bukkit.attribute.AttributeModifier
+                amount: 0.0
+                name: mmoitemsDecoy
+                uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+                operation: 0
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+            internal: H4sIAAAAAAAA/7WQQUvDMBiGP/USRGUKXgQh5OBJvAq7aGyDKzSrNBEspYSspKxsa0cXGWPsLw08e/SP+FPMBisOz15yeN8n7/d+3zEAgkvOo0AyLpSf9CkPPBVGMYMiJeSW3NzLocGNmeiywnWB6yo3WONpPTdN8T7eEnOjp3V1h7leDAy2jh+MdT6aTUo73AK5rlzEzNaNwaV9cNpGLr7XnyRDcNHO37xKJi8MEKeSxQENEXT27cCHjkcl9cJEcNWjfT9kCE5byG3A4OSpqUemwsLqokBw1hMyThTre46XAh6XxDmWdMlOcn2iZ+EKLkg3XZI2beerr4+ZbdyHNCOrbHUEVy3ivQoZccUjn4XKd80A4BrB+Z8MOEyz3023V35L/+fEe5NkwGI4oPADVne2su8BAAA=
+        weight: 4
+    allowDuplicates: false

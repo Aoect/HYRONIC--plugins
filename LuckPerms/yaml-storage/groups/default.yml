@@ -1,0 +1,41 @@
+name: default
+permissions:
+- EconomyShopGUI.shop.*
+- essentials.warps.*
+- betterprofiles.toggle.profile
+- commandprompter.cancel
+- commandprompter.use
+- displayname.&fி
+- dungeons.stuck
+- emf.shop
+- essentials.balance
+- essentials.delhome
+- essentials.help:
+    value: false
+- essentials.home
+- essentials.ignore
+- essentials.keepinv
+- essentials.kit:
+    value: false
+- essentials.msg
+- essentials.pay
+- essentials.sethome
+- essentials.spawn
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpahere
+- essentials.tptoggle
+- essentials.warp
+- landlord.limit.5
+- odailyquests.use
+- pw.desc
+- pw.limit.2
+- pw.lock
+- pw.open
+- pw.remove
+- pw.rename
+- tab.scoreboard.toggle
+- tradesystem.trade
+- tradesystem.trade.initiate
+- weight.0

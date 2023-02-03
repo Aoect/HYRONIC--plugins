@@ -1,0 +1,15 @@
+{
+  "connect.joining": "",
+  "menu.disconnect": "§c                Hey, don't go! §fぺꐨꐤꐣꐢꐡꐑ",
+  "menu.returnToGame": "ꐬ Return to §6ʜʏʀᴏɴɪᴀ",
+  "menu.game": "パ",
+  "item.dyed": "",
+  "container.inventory": " Inventory",
+  "resourcePack.server.name": "Vanilla Mod",
+  "gui.advancements": "§fꐭ Advancements",
+  "gui.stats": "ꐮ Statistics",
+  "menu.sendFeedback": "ꐯ Give Feedback",
+  "menu.reportBugs": "ꐰ Report Bugs",
+  "menu.options": "ꐱ Options...",
+  "menu.playerReporting": "ꐲ Player Report"
+} 

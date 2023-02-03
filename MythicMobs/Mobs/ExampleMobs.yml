@@ -1,0 +1,20 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletalKnight:
+  Type: WITHER_SKELETON
+  Display: '&cDummy &f- &c<caster.hp><&heart>'
+  Health: 1000
+  Damage: 0
+  BossBar:
+    Enabled: true
+    Title: '&cNightcrawler &f- &c<caster.hp><&heart>'
+    Range: 20
+    Color: WHITE
+    Style: SOLID
+  Options:
+    MovementSpeed: 0
+    AlwaysShowName: true
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged

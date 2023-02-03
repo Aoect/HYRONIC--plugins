@@ -1,0 +1,143 @@
+Ravenna:
+  Type: Vindicator
+  Display: '&f௝ &4ʀᴀᴠᴇɴɴᴀ'
+  Health: 100000
+  Damage: 20
+  Armor: 0
+  Disguise: ravenna
+  Faction: Boss
+  BossBar:
+    Enabled: true
+    Title: '&f௝ &4Ravenna &8- &c<caster.hp>❤'
+    Range: 40
+    Color: WHITE
+    Style: SOLID
+    CreateFog: true
+  Options:
+    NoGravity: true
+    Collidable: false
+    DigOutOfGround: true
+    MaxCombatDistance: 40
+    MovementSpeed: 0.4
+    Despawn: true
+    FollowRange: 30
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    PreventRandomEquipment: true
+  Modules:
+    ThreatTable: true
+    ImmunityTable: true
+  Equipment:
+  - mmoitems{type=STAFF;id=CATACLYSM} hand
+  DamageModifiers:
+  - LIGHTNING 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - DRAGON_BREATH 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - LAVA 0
+  - FALL 0
+  - HOT_FLOOR 0
+  - SUFFOCATION 0
+  - CONTACT 0
+  AIGoalSelectors:
+  - 0 Clear
+  - 1 Lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attackers
+  KillMessages:
+  - '&f<&skull> &c<target.name> &7was transformed into one of &cRavenna&7''s ravens'
+  - '&f<&skull> &c<target.name> &7could not overthrow the &cCoven'
+  - '&f<&skull> &c<target.name> &7was turned into lost souls by &cRavenna'
+  - '&f<&skull> &c<target.name> &7was fed to Hexim by &cRavenna'
+  Skills:
+  - effect:particles{p=smoke_large;amount=4;hS=0.4;vS=1;speed=0.05} @self ~onTimer:5
+  - skill{s=R_Entrance} @self ~onSpawn 
+  - skill{s=R_Stasis;sync=true} ~onDamaged
+  - skill{s=R_TransformP2} @self =70%
+  - skill{s=R_TransformP3-1st} @self =35%
+  - skill{s=R_Death} ~onDeath
+
+Ravenna_Death:
+  Type: Vindicator
+  Display: '&f௝ &4ʀᴀᴠᴇɴɴᴀ'
+  Health: 10000000
+  Damage: 0
+  Armor: 0
+  Disguise: ravenna
+  Faction: Boss
+  Options:
+    NoAI: true
+    Despawn: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    PreventRandomEquipment: true
+  Skills:
+  - skill{s=R_DeathAnimation} ~onSpawn
+
+Raven:
+  Type: Bat
+  Display: '&8Bad Omen'
+  Health: 75
+  Damage: 0
+  Armor: 5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    Despawn: true
+    FollowRange: 30
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    PreventRandomEquipment: true
+  AIGoalSelectors:
+  - 0 Clear
+  - 1 randomFly
+  AITargetSelectors:
+  - 0 clear
+  - 1 attackers
+  KillMessages:
+  - '&f<&skull> &c<target.name> &7was transformed into one of &cRavenna&7''s ravens'
+  - '&f<&skull> &c<target.name> &7could not overthrow the &cCoven'
+  - '&f<&skull> &c<target.name> &7was turned into lost souls by &cRavenna'
+  Skills:
+  - skill{s=R_Sacrifice} ~onSignal:explode
+
+CovenFighter:
+  Type: ENDERMAN
+  Display: '&cNightcrawler &f- &c<caster.hp><&heart>'
+  Health: 100
+  Damage: 15
+  Options:
+    MovementSpeed: 0.3
+    AlwaysShowName: true
+  AIGoalSelectors:
+  - 0 Clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attackers
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged

@@ -1,0 +1,53 @@
+CATACLYSM:
+  base:
+    material: STICK
+    custom-model-data: 1.0
+    name: <GRADIENT:#3a2b79:#6c35a4>The Cataclysm
+    item-particles: {}
+    disable-crafting: true
+    tier: S+
+    lore:
+    - '&fヷ Ritual of The End &8(Right Click)'
+    - '&bSlows&7 yourself by &b80%&7 for 3s,'
+    - '&7then unleashes a void blast,'
+    - '&7dealing &c650 + 100% of your &b✎'
+    - '&7to nearby enemies, while &fヶ <#3e8948>500'
+    - '&7nearby allies for &a10% max ❤.'
+    - '&8Mana: &3200'
+    - '&8Cooldown: &3100s'
+    - '&cNOT YET IMPLEMENTED!'
+    revision-id: 2
+    ability: {}
+    unstackable: true
+    disable-interaction: true
+    attack-damage: 24.0
+    wisdom: 300.0
+    range: 15.0
+    upgrade:
+      template: dungeon
+      max: 10
+FRIGID:
+  base:
+    material: STICK
+    custom-model-data: 3.0
+    name: <GRADIENT:#93fafb:#d3fafb>Frigid
+    lore:
+    - '&f௽ Frosty Fury &8(Right-Click)'
+    - '&7Unleashes a frost wave, <#d3fafb>rooting'
+    - '&7nearby enemies and dealing&c 35'
+    - '&7 damage.'
+    - '&8Cooldown: &310s'
+    - '&8Mana: &320'
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    attack-damage: 20.0
+    cooldown-reduction: 15.0
+    tier: S
+    fire-damage-reduction: 100.0
+    movement-speed: 0.01
+    ability:
+      ability1:
+        type: ICY_FURY
+        mode: RIGHT_CLICK
+        mana: 20.0
+        cooldown: 10.0

@@ -1,0 +1,9 @@
+DUNGEON_KEY_1:
+  base:
+    material: PAPER
+    custom-model-data: 14.0
+    lore:
+    - '&7Can be used to access &3The'
+    - '&3Veil&7 dungeon once!'
+    tier: A
+    name: Rusty Key

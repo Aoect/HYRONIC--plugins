@@ -1,0 +1,226 @@
+
+# Name which will be displayed
+# when opening the station
+name: '&f    ௻<#165B33>&l ꜱᴀɴᴛᴀ <#BB2528>&lᴡᴏʀᴋꜱʜᴏᴘ&f ௻'
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 1
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+# GET SOUND NAMES HERE:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: upgrade
+
+# Configure GUI items here
+items:
+    fill:
+        material: CYAN_STAINED_GLASS_PANE
+    no-recipe:
+        material: GRAY_DYE
+        name: '&8Not Available'
+    no-queue-item:
+        material: GRAY_DYE
+        name: '&8No Item in Queue'
+
+# Station recipes
+recipes:
+    winter1:
+        output:
+            type: SWORD
+            id: ABSOLUTE_ZERO
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=512}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=256}
+        - mmoitem{type=MATERIAL,id=SHARD_OF_TRUE_ICE,amount=1}
+
+    winter2:
+        output:
+            type: BOW
+            id: HOSPITALITY
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=256}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=SHARD_OF_TRUE_ICE,amount=1}
+
+    winter3:
+        output:
+            type: STAFF
+            id: FRIGID
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=256}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=SHARD_OF_TRUE_ICE,amount=1}
+
+    winter4:
+        output:
+            type: ARMOR
+            id: PERMAFROST_HELMET
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=64}
+
+    winter5:
+        output:
+            type: ARMOR
+            id: PERMAFROST_CHESTPLATE
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=64}
+
+    winter6:
+        output:
+            type: ARMOR
+            id: PERMAFROST_LEGGINGS
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=64}
+
+    winter7:
+        output:
+            type: ARMOR
+            id: PERMAFROST_BOOTS
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=64}
+
+    winter8:
+        output:
+            type: ACCESSORY
+            id: HAND_WARMER
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=64}
+
+    winter9:
+        output:
+            type: ACCESSORY
+            id: WOOLLY_HAT
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=64}
+
+    winter10:
+        output:
+            type: ACCESSORY
+            id: BLUE_RIBBON
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions: []
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RED_CANDYCANE,amount=128}
+        - mmoitem{type=MATERIAL,id=BLUE_CANDYCANE,amount=64}

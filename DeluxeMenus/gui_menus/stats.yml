@@ -1,0 +1,225 @@
+open_command: 
+  - stat
+  - stats
+size: 54
+menu_title: '%player_name%''s Stats'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_WOODEN_DOOR_CLOSE"
+  'back':
+    material: BOOK
+    model_data: 38
+    slot: 48
+    display_name: "&aBack"
+    lore:
+      - "&7Click this to go"
+      - "&7back!"
+    left_click_commands:
+      - "[openguimenu] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: black_stained_glass_pane
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,53]
+    display_name: ""
+    lore: []
+  'info':
+    material: BOOK
+    model_data: 29
+    slot: 4
+    display_name: "&8Your Stats"
+    lore:
+      - ""
+      - "&c🗡 Attack Damage&f %mmoitems_stat_attack_damage%"
+      - "&#CD5C5C🔱 Attack Speed&f +%math_0:_(({mmoitems_stat_attack_speed}-4)/4)*100%%"
+      - "&9☣ Crit Chance&f %mmoitems_stat_critical_strike_chance%%"
+      - "&9☠ Crit Damage&f %math_0:_50+{mmoitems_stat_critical_strike_power}%%"
+      - "&f🛡 Defense %mmoitems_stat_defense%"
+      - "&c❤ Health &f%aureliumskills_hp_max%"
+      - "&#ADD8E6☁ Movement Speed &f+%math_0:_({mmoitems_stat_movement_speed}-0.1)*1000%%"
+      - "&3☄ Tenacity &f%math_0:_{mmoitems_stat_knockback_resistance}*100%%"
+      - "&3⌛ Ability Haste &f%mmoitems_stat_cooldown_reduction%%"
+      - "&#9966cc۞ Ability Damage &f+%mmoitems_stat_skill_damage%%"
+      - "&6🏹 Projectile Damage &f%mmoitems_stat_projectile_damage%%"
+      - "&4🗡 Weapon Damage &f%mmoitems_stat_Weapon_damage%%"
+      - "&#ffffe0⌀ Damage Reduction &f%mmoitems_stat_damage_reduction%%"
+      - "&c✸ Strength &f%math_0:_{aureliumskills_strength}%"
+      - "&6✙ Regeneration &f%math_0:_{aureliumskills_regeneration}%"
+      - "&2☘ Luck &f%math_0:_{aureliumskills_luck}%"
+      - "&b✎ Wisdom &f%math_0:_{aureliumskills_wisdom}%"
+  'stat1':
+    material: BOOK
+    model_data: 12
+    slot: 10
+    display_name: "&c🗡 Attack Damage&f %mmoitems_stat_attack_damage%"
+    lore:
+      - "&7&m                                   "
+      - "&7Determines the base amount"
+      - "&7of damage you deal through"
+      - "&7normal attacks."
+  'stat2':
+    material: BOOK
+    model_data: 13
+    slot: 11
+    display_name: "&#CD5C5C🔱 Attack Speed&f +%math_0:_(({mmoitems_stat_attack_speed}-4)/4)*100%%"
+    lore:
+      - "&7&m                                   "
+      - "&7Increases the rate at which"
+      - "&7you swing your weapon."
+      - ""
+      - "&7Attack rate: &#CD5C5C%mmoitems_stat_attack_speed% hit/s"
+      - "&8Base attack rate is 4 hit/s"
+      - ""
+      - "&7You attack &#CD5C5C%math_0:_(({mmoitems_stat_attack_speed}-4)/4)*100%%&7 faster!"
+  'stat3':
+    material: BOOK
+    model_data: 14
+    slot: 12
+    display_name: "&9☣ Crit Chance&f %mmoitems_stat_critical_strike_chance%%"
+    lore:
+      - "&7&m                                   "
+      - "&7Determines your chance of"
+      - "&7dealing a crit."
+  'stat4':
+    material: BOOK
+    model_data: 15
+    slot: 13
+    display_name: "&9☠ Crit Damage&f %math_0:_50+{mmoitems_stat_critical_strike_power}%%"
+    lore:
+      - "&7&m                                    "
+      - "&7Determines how much damage"
+      - "&7will a crit deal."
+  'stat5':
+    material: BOOK
+    model_data: 16
+    slot: 14
+    display_name: "&f🛡 Defense %mmoitems_stat_defense%"
+    lore:
+      - "&7&m                                "
+      - "&7Defense reduces damage"
+      - "&7from all sources."
+      - ""
+      - "&7Damage Reduction: &f%mmoitems_stat_defense_percent%%"
+  'stat7':
+    material: BOOK
+    model_data: 17
+    slot: 15
+    display_name: "&c❤ Health &f%aureliumskills_hp_max%"
+    lore:
+      - "&7&m                                   "
+      - "&7Determines the damage you"
+      - "&7can take before you die."
+      - ""
+      - "&7Effective Health: &c%math_0:_{aureliumskills_hp_max}*(1+{mmoitems_stat_defense}/100)%❤"
+  'stat8':
+    material: BOOK
+    model_data: 18
+    slot: 16
+    display_name: "&#ADD8E6☁ Movement Speed &f+%math_0:_({mmoitems_stat_movement_speed}-0.1)*1000%%"
+    lore:
+      - "&7&m                                    "
+      - "&7Determines the rate at which"
+      - "&7you move."
+  'stat9':
+    material: BOOK
+    model_data: 19
+    slot: 19
+    display_name: "&3☄ Tenacity &f%math_0:_{mmoitems_stat_knockback_resistance}*100%%"
+    lore:
+      - "&7&m                              "
+      - "&7Tenacity decreases the"
+      - "&7potency of knockbacks."
+  'stat10':
+    material: BOOK
+    model_data: 20
+    slot: 20
+    display_name: "&3⌛ Ability Haste &f%mmoitems_stat_cooldown_reduction%%"
+    lore:
+      - "&7&m                             "
+      - "&7Ability haste decreases"
+      - "&7all abilities' cooldowns."
+  'stat11':
+    material: BOOK
+    model_data: 21
+    slot: 21
+    display_name: "&#9966cc۞ Ability Damage &f+%mmoitems_stat_skill_damage%%"
+    lore:
+      - "&7&m                            "
+      - "&7Increases all abilities"
+      - "&7damage."
+  'stat12':
+    material: BOOK
+    model_data: 22
+    slot: 22
+    display_name: "&6🏹 Projectile Damage &f%mmoitems_stat_projectile_damage%%"
+    lore:
+      - "&7&m                                "
+      - "&7Increases the damage of"
+      - "&7projectiles (arrows,etc)"
+  'stat13':
+    material: BOOK
+    model_data: 23
+    slot: 23
+    display_name: "&4🗡 Weapon Damage &f%mmoitems_stat_Weapon_damage%%"
+    lore:
+      - "&7&m                                "
+      - "&7Increases the damage of"
+      - "&7weapons"
+  'stat14':
+    material: BOOK
+    model_data: 24
+    slot: 24
+    display_name: "&#ffffe0⌀ Damage Reduction &f%mmoitems_stat_damage_reduction%%"
+    lore:
+      - "&7&m                                   "
+      - "&7Decreases damage from all"
+      - "&7sources by a percentage."
+  'stat15':
+    material: BOOK
+    model_data: 25
+    slot: 25
+    display_name: "&c✸ Strength &f%math_0:_{aureliumskills_strength}%"
+    lore:
+      - "&7&m                                   "
+      - "&7Directly increases damage"
+      - "&7dealt."
+      - ""
+      - "&7Affects &call&7 types of damage,"
+      - "&7both normal and ability one."
+  'stat16':
+    material: BOOK
+    model_data: 26
+    slot: 28
+    display_name: "&6✙ Regeneration &f%math_0:_{aureliumskills_regeneration}%"
+    lore:
+      - "&7&m                                   "
+      - "&7Increases health and mana"
+      - "&7regeneration."
+  'stat17':
+    material: BOOK
+    model_data: 27
+    slot: 29
+    display_name: "&2☘ Luck &f%math_0:_{aureliumskills_luck}%"
+    lore:
+      - "&7&m                                   "
+      - "&7Grants better loot pools and"
+      - "&7extra lucky occurences!"
+  'stat18':
+    material: BOOK
+    model_data: 28
+    slot: 30
+    display_name: "&b✎ Wisdom &f%math_0:_{aureliumskills_wisdom}%"
+    lore:
+      - "&7&m                                "
+      - "&7Increases max mana and"
+      - "&7unlocks powerful abilities."
+      - ""
+      - "&7Max mana: &b%aureliumskills_mana_max_int%"

@@ -1,0 +1,9 @@
+uuid: defcadaa-bb7a-4079-902b-3844d583f981
+name: prisq
+primary-group: emerald
+permissions:
+- landlord.limit.6
+- landlord.limit.7
+- landlord.limit.8
+parents:
+- emerald

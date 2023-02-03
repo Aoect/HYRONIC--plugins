@@ -1,0 +1,50 @@
+CONFIRM:
+  name: '&aConfirm'
+  lore: []
+FILL:
+  name: '&8'
+  lore: []
+PREVIOUS_PAGE:
+  name: '&aPrevious Page'
+  lore: []
+NEXT_PAGE:
+  name: '&aNext Page'
+  lore: []
+PREVIOUS_IN_QUEUE:
+  name: '&aPrevious'
+  lore: []
+NEXT_IN_QUEUE:
+  name: '&aNext'
+  lore: []
+BACK:
+  name: '&aBack'
+  lore: []
+CRAFTING_RECIPE_DISPLAY:
+  name: '&fオ&f #name#'
+  lore:
+  - '{conditions}'
+  - '{conditions}&8需求'
+  - ''
+  - '#ingredients#'
+  - ''
+  - '{crafting_time}<#A7C7E7>⌚ &7Takes <#aececf>#crafting-time#s'
+  - ''
+  - '&6[LMB] &7合成物品'
+  - '&6[RMB] &7前一物品'
+UPGRADING_RECIPE_DISPLAY:
+  name: '&fォ&f #name#'
+  lore:
+  - ''
+  - '{conditions}&8需求:'
+  - '{conditions}'
+  - '#ingredients#'
+  - ''
+  - '&6[LMB] &7升级物品'
+  - '&6[RMB] &7预览'
+QUEUE_ITEM_DISPLAY:
+  name: '&7⌚&f #name#'
+  lore:
+  - '{queue}&7Ready in <#A7C7E7>#left#'
+  - ''
+  - '{ready}&e点击以确认！'
+  - '{queue}&e点击以返回。'

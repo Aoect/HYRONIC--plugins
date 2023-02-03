@@ -1,0 +1,47 @@
+HAND_WARMER:
+  base:
+    material: PAPER
+    custom-model-data: 35.0
+    name: Hand Warmer
+    lore:
+    - '&f௿ Frost Free &8(Right-Click)'
+    - '&7Immediately &acleanses&7 yourself'
+    - '&7out of all &bslows&7.'
+    - '&8Cooldown: &330s'
+    - ''
+    - '&f௱ &7ᴀᴄᴄᴇꜱꜱᴏʀʏ ɪᴛᴇᴍ'
+    - '&8Coming soon!'
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    cooldown-reduction: 10.0
+    tier: B
+
+WOOLLY_HAT:
+  base:
+    material: PAPER
+    custom-model-data: 36.0
+    name: Woolly Hat
+    lore:
+    - '&f௱ &7ᴀᴄᴄᴇꜱꜱᴏʀʏ ɪᴛᴇᴍ'
+    - '&8Coming soon!'
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    fire-damage-reduction: 100.0
+    tier: B
+
+BLUE_RIBBON:
+  base:
+    material: PAPER
+    custom-model-data: 38.0
+    name: Blue Ribbon
+    lore:
+    - '&6Special: &7Inflicts &bSlow II &7to'
+    - '&7hit targets'
+    - ''
+    - '&f௱ &7ᴀᴄᴄᴇꜱꜱᴏʀʏ ɪᴛᴇᴍ'
+    - '&8Coming soon!'
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    tier: B

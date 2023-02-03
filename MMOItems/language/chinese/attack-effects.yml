@@ -1,0 +1,14 @@
+staff-spirit:
+  nether-spirit: '&7■ 下界之灵'
+  void-spirit: '&7■ 虚空之灵'
+  mana-spirit: '&7■ 魔力之灵'
+  lightning-spirit: '&7■ 雷电之灵'
+  xray-spirit: '&7■ X-射线之灵'
+  thunder-spirit: '&7■ 闪电之灵'
+  sunfire-spirit: '&7■ 日炎之灵'
+lute-attack:
+  wave: '&7■ 波形攻击'
+  circular: '&7■ 环形攻击'
+  simple: '&7■ 普通攻击'
+  brute: '&7■ 重击'
+  slash: '&7■ 斩击'

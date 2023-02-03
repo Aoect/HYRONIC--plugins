@@ -1,0 +1,28 @@
+first-join:
+  # a random number or a custom name
+  1:
+    sound: ENTITY_PLAYER_LEVELUP
+    private:
+      - '&a'
+      - '<C>&f௞ &#FFFDD0&lᴡᴇʟᴄᴏᴍᴇ &f௞'
+      - '<C>&e%player_name%&7, you have arrived at &eHyronia&7. Talk to'
+      - '<C>&ePris&7 to get started'
+      - '&a'
+      - '<C>&f௟ &e30%&f ᴏꜰꜰ ᴀᴛ ꜱᴛᴏʀᴇ ꜰᴏʀ ʟɪᴍɪᴛᴇᴅ ᴛɪᴍᴇ &f௟'
+      - '&a'
+      - '<C>&3&lWEBSITE &fmc.servername.net'
+      - '<C>&6&lSTORE &fstore.servername.net'
+      - '&a'
+join:
+  1:
+    sound: ENTITY_PLAYER_LEVELUP
+    private:
+      - '&a'
+      - '<C>&f௞ &#FFFDD0&lᴡᴇʟᴄᴏᴍᴇ ʙᴀᴄᴋ &f௞'
+      - '<C>&e%player_name%&7, you have returned!'
+      - '&a'
+      - '<C>&f௟ &e30%&f ᴏꜰꜰ ᴀᴛ ꜱᴛᴏʀᴇ ꜰᴏʀ ʟɪᴍɪᴛᴇᴅ ᴛɪᴍᴇ &f௟'
+      - '&a'
+      - '<C>&3&lWEBSITE &fmc.servername.net'
+      - '<C>&6&lSTORE &fstore.servername.net'
+      - '&a'

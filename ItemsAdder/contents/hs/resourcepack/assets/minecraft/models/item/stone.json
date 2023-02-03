@@ -1,0 +1,12 @@
+{
+    "parent": "block/stone",
+    "textures": {
+        "layer0": "block/stone"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1001}, "model": "custom/blocks/orichalcum_ore"},
+		{ "predicate": {"custom_model_data": 1002}, "model": "custom/blocks/crimstone_ore"},
+		{ "predicate": {"custom_model_data": 1003}, "model": "custom/blocks/mythril_ore"},
+		{ "predicate": {"custom_model_data": 1004}, "model": "custom/blocks/titanium_ore"}
+	]
+}

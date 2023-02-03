@@ -1,0 +1,15 @@
+name: prisq
+discoveries:
+- regions;2
+- regions;5
+- regions;7
+- regions;6
+- regions;1
+- regions;3
+- regions;4
+- enemies;1
+- enemies;2
+- enemies;3
+- enemies;4
+- bosses;1
+- regions;8

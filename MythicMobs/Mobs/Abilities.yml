@@ -1,0 +1,157 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+HEX_REVENANT:
+  Type: ZOMBIE
+  Display: '&f✲ &5Hex Revenant'
+  Health: 100
+  Damage: 35
+  Equipment:
+  - mmoitems{type=ARMOR;id=HEXIM_JUDENHAT}:4
+  Options:
+    MovementSpeed: 0.3
+    AlwaysShowName: true
+    Invincible: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - monsters
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged
+    - skill{s=Necromancy-Despawn;delay=200} @self ~onSpawn
+COSMIC_TERROR:
+  Type: EVOKER
+  Display: '&f✲ &dCosmic Terror'
+  Health: 1
+  Damage: 50
+  Disguise: CosmicTerror
+  Equipment:
+  - mmoitems{type=SWORD;id=ARK_OF_THE_COSMOS}:5
+  Options:
+    MovementSpeed: 0.4
+    AlwaysShowName: true
+    Invincible: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - monsters
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged
+    - skill{s=Cosmic_Ally-Heal} ~onAttack
+    - skill{s=Cosmic_Ally-Death;delay=200} @self ~onSpawn
+
+DOPPELGANGER:
+  Type: VINDICATOR
+  Display: '&f✲ &3Doppelganger'
+  Health: 350
+  Damage: 0
+  Faction: Minion
+  Options:
+    MovementSpeed: 0.4
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+  AIGoalSelectors:
+  - clear
+  - movetowardstarget
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - monsters
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged
+    - setname{name=<caster.name>;delay=2} @self ~onSpawn
+    - CopyCatEquipment{mainhand=true;offhand=true} @Owner
+    - rallyall @EntitiesInRadius{r=10;ignore=samefaction,animals} ~onSpawn
+    - skill{s=Cosmic_Ally-Death;delay=200} @self ~onSpawn
+    - skill{s=Doppelganger-Attack} @self ~onSpawn
+
+VOIDLING:
+  Type: EVOKER
+  Display: '&8✲ &8Voidling'
+  Health: 1
+  Damage: 35
+  Disguise: Voidling
+  Options:
+    MovementSpeed: 0.3
+    AlwaysShowName: true
+    Invincible: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - monsters
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged
+    - skill{s=Necromancy-Despawn;delay=200} @self ~onSpawn
+
+COSMIC_TERROR:
+  Type: EVOKER
+  Display: '&f✲ &dCosmic Terror'
+  Health: 1
+  Damage: 50
+  Disguise: CosmicTerror
+  Equipment:
+  - mmoitems{type=SWORD;id=ARK_OF_THE_COSMOS}:5
+  Options:
+    MovementSpeed: 0.4
+    AlwaysShowName: true
+    Invincible: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - monsters
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged
+    - skill{s=Cosmic_Ally-Heal} ~onAttack
+    - skill{s=Cosmic_Ally-Death;delay=200} @self ~onSpawn
+
+ICE_REVENANT:
+  Type: EVOKER
+  Display: '&f✲ &bIce Revenant'
+  Health: 1
+  Damage: 0
+  Disguise: IceRevenant
+  Options:
+    MovementSpeed: 0.2
+    AlwaysShowName: true
+    Invincible: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - monsters
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged
+    - skill{s=Icy_Reaper-Tick} ~onTimer:20
+    - skill{s=Icy_Reaper-Explode;delay=100} ~onSpawn 

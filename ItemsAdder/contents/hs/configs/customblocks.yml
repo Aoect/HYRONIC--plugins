@@ -1,0 +1,217 @@
+info:
+  namespace: hs
+items:
+  mythril_ore:
+    display_name: Mythril Ore
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - blocks/mythril_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 3
+        break_tools_whitelist:
+        - netherite_pickaxe
+        - mythril_pickaxe
+        - orichalcum_pickaxe
+  orichalcum_ore:
+    display_name: Orichalcum Ore
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - blocks/orichalcum_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - mythril_pickaxe
+        - orichalcum_pickaxe
+  titanium_ore:
+    display_name: Titanium Ore
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - blocks/titanium_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 5
+        break_tools_whitelist:
+        - orichalcum_pickaxe
+  mythril_bar:
+    display_name: ""
+    mmoitem:
+      type: MATERIAL
+      id: MYTHRIL_INGOT
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - minerals/mythril_ingot.png
+  orichalcum_bar:
+    display_name: ""
+    mmoitem:
+      type: MATERIAL
+      id: ORICHALCUM_INGOT
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - minerals/orichalcum_ingot.png
+  titanium_bar:
+    display_name: ""
+    mmoitem:
+      type: MATERIAL
+      id: TITANIUM_INGOT
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - minerals/titanium_ingot.png
+  mythril_pickaxe:
+    display_name: ""
+    mmoitem:
+      type: TOOL
+      id: MYTHRIL_PICKAXE
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - pickaxes/mythril_pickaxe.png
+  orichalcum_pickaxe:
+    display_name: ""
+    mmoitem:
+      type: TOOL
+      id: ORICHALCUM_PICKAXE
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - pickaxes/orichalcum_pickaxe.png
+loots:
+  blocks:
+    mythril_ore:
+      type: hs:mythril_ore
+      items:
+        mythril:
+          item: hs:mythril_bar
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    orichalcum_ore:
+      type: hs:orichalcum_ore
+      items:
+        mythril:
+          item: hs:orichalcum_bar
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    titanium_ore:
+      type: hs:titanium_ore
+      items:
+        mythril:
+          item: hs:titanium_ore
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+worlds_populators:
+  mythril_ore:
+    block: hs:mythril_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    chunk_chance: 100.0
+    max_height: 45
+    min_height: 0
+    vein_blocks: 6
+    chunk_veins: 1
+  orichalcum_ore:
+    block: hs:orichalcum_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    chunk_chance: 85.0
+    max_height: 35
+    min_height: 0
+    vein_blocks: 5
+    chunk_veins: 1
+  titanium_ore:
+    block: hs:titanium_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    chunk_chance: 75.0
+    max_height: 30
+    min_height: 0
+    vein_blocks: 5
+    chunk_veins: 1
+recipes:
+  crafting_table:
+    mythril_pickaxe:
+      enabled: true
+      pattern:
+      - MMM
+      - XSX
+      - XSX
+      ingredients:
+        M: hs:mythril_bar 
+        S: STICK
+      result:
+        item: hs:mythril_pickaxe
+        amount: 1
+    orichalcum_pickaxe:
+      enabled: true
+      pattern:
+      - OOO
+      - XSX
+      - XSX
+      ingredients:
+        O: hs:orichalcum_bar 
+        S: STICK
+      result:
+        item: hs:orichalcum_pickaxe
+        amount: 1
+    titanium_pickaxe:
+      enabled: true
+      pattern:
+      - TTT
+      - XSX
+      - XSX
+      ingredients:
+        M: hs:titanium_bar 
+        S: STICK
+      result:
+        item: hs:titanium_pickaxe
+        amount: 1

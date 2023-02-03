@@ -1,0 +1,2002 @@
+LEATHER_HELEMET:
+  base:
+    material: LEATHER_HELMET
+    name: 皮革头盔
+    tier: D
+    defense: 5.0
+    browser-idx: 1.0
+LEATHER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 皮革胸甲
+    tier: D
+    defense: 15.0
+    browser-idx: 1.0
+LEATHER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 皮革护腿
+    tier: D
+    defense: 10.0
+    browser-idx: 1.0
+LEATHER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 皮革靴子
+    tier: D
+    defense: 5.0
+    browser-idx: 1.0
+IRON_HELMET:
+  base:
+    material: IRON_HELMET
+    name: 铁头盔
+    tier: D
+    defense: 10.0
+    browser-idx: 2.0
+    critical-strike-chance: 2.0
+    critical-strike-power: 5.0
+    max-health: 5.0
+IRON_CHESTPLATE:
+  base:
+    material: IRON_CHESTPLATE
+    name: 铁胸甲
+    tier: D
+    defense: 30.0
+    browser-idx: 2.0
+    critical-strike-power: 5.0
+    max-health: 5.0
+IRON_LEGGINGS:
+  base:
+    material: IRON_LEGGINGS
+    name: 铁护腿
+    tier: D
+    defense: 25.0
+    browser-idx: 2.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    max-health: 5.0
+IRON_BOOTS:
+  base:
+    material: IRON_BOOTS
+    name: 铁靴子
+    tier: D
+    defense: 15.0
+    browser-idx: 2.0
+    movement-speed: 0.01
+    max-health: 5.0
+GOLDEN_HELMET:
+  base:
+    material: GOLDEN_HELMET
+    name: 金头盔
+    tier: D
+    defense: 10.0
+    browser-idx: 3.0
+GOLDEN_CHESTPLATE:
+  base:
+    material: GOLDEN_CHESTPLATE
+    name: 金胸甲
+    tier: D
+    defense: 25.0
+    browser-idx: 3.0
+GOLDEN_LEGGINGS:
+  base:
+    material: GOLDEN_LEGGINGS
+    name: 金护腿
+    tier: D
+    defense: 15.0
+    browser-idx: 3.0
+GOLDEN_BOOTS:
+  base:
+    material: GOLDEN_BOOTS
+    name: 金靴子
+    tier: D
+    defense: 5.0
+    browser-idx: 3.0
+DIAMOND_HELMET:
+  base:
+    material: DIAMOND_HELMET
+    name: 钻石头盔
+    tier: C
+    defense: 15.0
+    browser-idx: 4.0
+    critical-strike-power: 5.0
+    max-health: 5.0
+DIAMOND_CHESTPLATE:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: 钻石胸甲
+    tier: C
+    defense: 40.0
+    browser-idx: 4.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    max-health: 10.0
+DIAMOND_LEGGINGS:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: 钻石护腿
+    tier: C
+    defense: 30.0
+    browser-idx: 4.0
+    critical-strike-chance: 2.5
+    critical-strike-power: 5.0
+    max-health: 10.0
+DIAMOND_BOOTS:
+  base:
+    material: DIAMOND_BOOTS
+    name: 钻石靴子
+    tier: C
+    defense: 15.0
+    browser-idx: 4.0
+    critical-strike-power: 2.5
+    max-health: 5.0
+    movement-speed: 0.01
+NETHERITE_HELMET:
+  base:
+    material: NETHERITE_HELMET
+    name: 下界合金头盔
+    tier: B
+    defense: 20.0
+    browser-idx: 5.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 7.5
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_HELMET 1.0..|v NETHERITE_INGOT - 1.0..
+NETHERITE_CHESTPLATE:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: 下界合金胸甲
+    tier: B
+    defense: 50.0
+    browser-idx: 5.0
+    critical-strike-chance: 10.0
+    critical-strike-power: 10.0
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_CHESTPLATE 1.0..|v NETHERITE_INGOT - 1.0..
+NETHERITE_LEGGINGS:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: 下界合金护腿
+    tier: B
+    defense: 35.0
+    browser-idx: 5.0
+    critical-strike-chance: 7.5
+    critical-strike-power: 7.5
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_LEGGINGS 1.0..|v NETHERITE_INGOT - 1.0..
+NETHERITE_BOOTS:
+  base:
+    material: NETHERITE_BOOTS
+    name: 下界合金靴子
+    tier: B
+    defense: 20.0
+    browser-idx: 5.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    max-health: 15.0
+    movement-speed: 0.02
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_BOOTS 1.0..|v NETHERITE_INGOT - 1.0..
+HELLFIRE_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: 狱火头盔
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0ZjY1ZjliOTk1OGE2MzkyYzhiNjMzMjRkNzZlODBkMmI1MDljMTk4NWEwMDIzMmFlY2NlNDA5NTg1YWUyYSJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    lore:
+    - '&fｫ 烈焰领主&8（全套）'
+    - '&8+ &7免疫&6火焰以及熔岩&7。'
+    - '&8+ &7每次攻击都会向四周'
+    - '&7绽出火环，令敌人'
+    - '&7&6着火&7。&8（3 秒冷却）'
+    - '&8+ &7对着火的敌人'
+    - '&7&6+20%&7 伤害'
+    max-durability: 506.0
+    browser-idx: 6.0
+    set: Hellfire
+    sounds:
+      on-craft:
+        sound: BLOCK_SMITHING_TABLE_USE
+        volume: 1.0
+        pitch: 1.0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_helmet 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+    defense: 25.0
+    max-health: 20.0
+HELLFIRE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 狱火胸甲
+    tier: S
+    critical-strike-chance: 15.0
+    critical-strike-power: 35.0
+    lore:
+    - '&fｫ 烈焰领主&8（全套）'
+    - '&8+ &7免疫&6火焰以及熔岩&7。'
+    - '&8+ &7每次攻击都会向四周'
+    - '&7绽出火环，令敌人'
+    - '&7&6着火&7。&8（3 秒冷却）'
+    - '&8+ &7对着火的敌人'
+    - '&7&6+20%&7 伤害'
+    max-durability: 816.0
+    browser-idx: 6.0
+    set: Hellfire
+    weapon-damage: 5.0
+    max-health: 20.0
+    defense: 55.0
+    hide-dye: true
+    dye-color: 233 96 0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_chestplate 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+HELLFIRE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 狱火护腿
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    lore:
+    - '&fｫ 烈焰领主&8（全套）'
+    - '&8+ &7免疫&6火焰以及熔岩&7。'
+    - '&8+ &7每次攻击都会向四周'
+    - '&7绽出火环，令敌人'
+    - '&7&6着火&7。&8（3 秒冷却）'
+    - '&8+ &7对着火的敌人'
+    - '&7&6+20%&7 伤害'
+    max-durability: 731.0
+    browser-idx: 6.0
+    set: Hellfire
+    defense: 40.0
+    max-health: 20.0
+    hide-dye: true
+    dye-color: 255 170 1
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+HELLFIRE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 狱火靴子
+    tier: S
+    critical-strike-chance: 7.5
+    critical-strike-power: 12.5
+    lore:
+    - '&fｫ 烈焰领主&8（全套）'
+    - '&8+ &7免疫&6火焰以及熔岩&7。'
+    - '&8+ &7每次攻击都会向四周'
+    - '&7绽出火环，令敌人'
+    - '&7&6着火&7。&8（3 秒冷却）'
+    - '&8+ &7对着火的敌人'
+    - '&7&6+20%&7 伤害'
+    max-durability: 540.0
+    browser-idx: 6.0
+    set: Hellfire
+    movement-speed: 0.03
+    defense: 25.0
+    max-health: 20.0
+    hide-dye: true
+    dye-color: 255 159 0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+WARDEN_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: 监守者头盔
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 7.5
+    critical-strike-power: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNhZmU4NDhmZDc1NWQ5OThhMDZhNTgzMjE5MTIyNDRjZjc2ZWVmMWNlNzhhNTEyMjhmZGQxMDIwYWI3M2E2OCJ9fX0=
+      uuid: 52270001-ed05-4261-9682-1129a4fbae8d
+    lore:
+    - '&fｪ 监守者之祝福&8（全套）'
+    - '&7每过 <#1a748c>20 秒&7，你会绽出'
+    - '&7一道光环，治愈周围队友&c10❤&7'
+    max-durability: 612.0
+    browser-idx: 8.0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_helmet 1.0..|m material warden_heart 1.0..
+          amount: 1
+    defense: 40.0
+    max-health: 30.0
+    damage-reduction: 1.0
+    unstackable: true
+    knockback-resistance: 0.15
+    set: Warden
+    goop-hat: true
+WARDEN_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 监守者胸甲
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    lore:
+    - '&fｪ 监守者之祝福&8（全套）'
+    - '&7每过 <#1a748c>20 秒&7，你会绽出'
+    - '&7一道光环，治愈周围队友&c10❤&7'
+    max-durability: 1000.0
+    defense: 70.0
+    max-health: 40.0
+    damage-reduction: 2.0
+    unstackable: true
+    knockback-resistance: 0.15
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 24 42 65
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_chestplate 1.0..|m material warden_heart 1.0..
+          amount: 1
+WARDEN_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 监守者护腿
+    tier: S
+    critical-strike-chance: 7.5
+    critical-strike-power: 12.5
+    lore:
+    - '&fｪ 监守者之祝福&8（全套）'
+    - '&7每过 <#1a748c>20 秒&7，你会绽出'
+    - '&7一道光环，治愈周围队友&c10❤&7'
+    max-durability: 768.0
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 1.0
+    unstackable: true
+    knockback-resistance: 0.15
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 13 72 92
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m material warden_heart 1.0..
+          amount: 1
+WARDEN_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 监守者靴子
+    tier: S
+    critical-strike-chance: 5.0
+    critical-strike-power: 7.5
+    lore:
+    - '&fｪ 监守者之祝福&8（全套）'
+    - '&7每过 <#1a748c>20 秒&7，你会绽出'
+    - '&7一道光环，治愈周围队友&c10❤&7'
+    max-durability: 624.0
+    defense: 40.0
+    max-health: 30.0
+    damage-reduction: 1.0
+    unstackable: true
+    durability-bar: true
+    knockback-resistance: 0.15
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 49 119 114
+    movement-speed: 0.03
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m material warden_heart 1.0..
+          amount: 1
+APOLLO_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: 阿波罗头盔
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRhYzVjNTA5MjM3Mzc3NTNlYThiNjMwYTQyZjg5ZjVkOThjMTcyNDQ4MmJjM2ZmYzE0ZjllZDFmYmZlZWEifX19
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｭ 驱逐&8（全套）'
+    - '&7受击时，施放'
+    - '&7一道圣洁爆炸，'
+    - '&7击退周围的敌人。'
+    - '&8冷却时间：&310 秒'
+    max-durability: 506.0
+    browser-idx: 7.0
+    set: Apollo
+    defense: 15.0
+    max-health: 15.0
+    projectile-damage: 7.5
+    crafting:
+      smithing:
+        '1':
+          input: m armor NETHERITE_HELMET 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 阿波罗胸甲
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    lore:
+    - '&fｭ 驱逐&8（全套）'
+    - '&7受击时，施放'
+    - '&7一道圣洁爆炸，'
+    - '&7击退周围的敌人。'
+    - '&8冷却时间：&310 秒'
+    max-durability: 800.0
+    defense: 45.0
+    max-health: 25.0
+    projectile-damage: 10
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    dye-color: 252 252 252
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_CHESTPLATE 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 阿波罗护腿
+    tier: S
+    critical-strike-chance: 7.5
+    critical-strike-power: 10.0
+    lore:
+    - '&fｭ 驱逐&8（全套）'
+    - '&7受击时，施放'
+    - '&7一道圣洁爆炸，'
+    - '&7击退周围的敌人。'
+    - '&8冷却时间：&310 秒'
+    max-durability: 715.0
+    defense: 35.0
+    max-health: 20.0
+    projectile-damage: 10
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    dye-color: 126 209 195
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 阿波罗靴子
+    tier: S
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    lore:
+    - '&fｭ 驱逐&8（全套）'
+    - '&7受击时，施放'
+    - '&7一道圣洁爆炸，'
+    - '&7击退周围的敌人。'
+    - '&8冷却时间：&310 秒'
+    max-durability: 715.0
+    defense: 15.0
+    max-health: 10.0
+    projectile-damage: 7.5
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 245 171 5
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOCALYPSE_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: 天启头盔
+    tier: S+
+    disable-interaction: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVjMmVmYTQyMTgzMDAwODA2MjkwNjI4NGYwMzNmOTA1ZGVkNGVhMmM3ZWQ5YjZlMDk3YWMxZGUyNDI3ZTcwOCJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&8可升级为另一套'
+    - '&8专精套装。'
+    max-durability: 506.0
+    browser-idx: 10.0
+    set: Apocalypse
+    defense: 45.0
+    max-health: 40.0
+    goop-hat: true
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      shaped: {}
+APOCALYPSE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 天启胸甲
+    tier: S+
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&8可升级为另一套'
+    - '&8专精套装。'
+    max-durability: 2250.0
+    defense: 95.0
+    max-health: 70.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 10.0
+    hide-dye: true
+    dye-color: 0 0 0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+APOCALYPSE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 天启护腿
+    tier: S+
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&8可升级为另一套'
+    - '&8专精套装。'
+    max-durability: 2000.0
+    defense: 70.0
+    max-health: 55.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 10.0
+    hide-dye: true
+    dye-color: 10 10 9
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+APOCALYPSE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 天启靴子
+    tier: S+
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&8可升级为另一套'
+    - '&8专精套装。'
+    max-durability: 1300.0
+    defense: 55.0
+    max-health: 50.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 10.0
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 0 0 0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+QUINERUS_BATTLEHELM:
+  base:
+    material: PLAYER_HEAD
+    name: Quinerus Battlehelm
+    tier: S+
+    disable-interaction: true
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVmMzE3ZmFhOGRjZjEzYTJmYzE4ZWEwYmYwYTA3MzZhNGZmOTVjMjg1MDFiYjFjZmE0MzAyNTQyMjc4ZjhhIn19fQ==
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｧ 有舍有得&8（全套）'
+    - '&7交战时，你的进攻属性'
+    - '&7会全面提高 &c10%&7，'
+    - '&7但你的防御属性'
+    - '&7也会同时降低 &c10%&7。'
+    - '&8增益持续时间为 5 秒。'
+    max-durability: 506.0
+    browser-idx: 8.0
+    set: Quinerus
+    defense: 35.0
+    max-health: 30.0
+    goop-hat: true
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+QUINERUS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 魁力胸甲
+    tier: S+
+    critical-strike-chance: 20.0
+    critical-strike-power: 45.0
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｧ 有舍有得&8（全套）'
+    - '&7交战时，你的进攻属性'
+    - '&7会全面提高 &c10%&7，'
+    - '&7但你的防御属性'
+    - '&7也会同时降低 &c10%&7。'
+    - '&8增益持续时间为 5 秒。'
+    max-durability: 2250.0
+    defense: 70.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 52 25 25
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+QUINERUS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 魁力护腿
+    tier: S+
+    critical-strike-chance: 12.5
+    critical-strike-power: 32.5
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｧ 有舍有得&8（全套）'
+    - '&7交战时，你的进攻属性'
+    - '&7会全面提高 &c10%&7，'
+    - '&7但你的防御属性'
+    - '&7也会同时降低 &c10%&7。'
+    - '&8增益持续时间为 5 秒。'
+    max-durability: 2000.0
+    defense: 55.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 10 10 9
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+QUINERUS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 魁力靴子
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｧ 有舍有得&8（全套）'
+    - '&7交战时，你的进攻属性'
+    - '&7会全面提高 &c10%&7，'
+    - '&7但你的防御属性'
+    - '&7也会同时降低 &c10%&7。'
+    - '&8增益持续时间为 5 秒。'
+    max-durability: 1300.0
+    defense: 45.0
+    max-health: 40.0
+    unstackable: true
+    browser-idx: 8.0
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 10 10 9
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+CAELETUS_SALLET:
+  base:
+    material: PLAYER_HEAD
+    name: Caeletus Sallet
+    tier: S+
+    disable-interaction: true
+    critical-strike-power: 10.0
+    projectile-damage: 10
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDBiOTM5ZThlOTcyNmNkMjc3NDBkNDQ4ZDExOGNjYTFmZGM1MDlmNTFjNTg4NzZjODU0ODBiMzAyMTQzZSJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｨ 移形换位&8（单件增益）'
+    - '&7潜行时，'
+    - '&7你会立即&c传送到&7'
+    - '&7你的箭矢落点处。'
+    - '&8冷却时间：&310s'
+    max-durability: 506.0
+    browser-idx: 11.0
+    defense: 30.0
+    max-health: 30.0
+    goop-hat: true
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+CAELETUS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 幻天胸甲
+    tier: S+
+    critical-strike-chance: 15.0
+    critical-strike-power: 35.0
+    projectile-damage: 15
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｨ 移形换位&8（单件增益）'
+    - '&7潜行时，'
+    - '&7你会立即&c传送到&7'
+    - '&7你的箭矢落点处。'
+    - '&8冷却时间：&310 秒'
+    max-durability: 2250.0
+    defense: 55.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 11.0
+    hide-dye: true
+    dye-color: 253 216 144
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+CAELETUS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 幻天护腿
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    projectile-damage: 15
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｨ 移形换位&8（单件增益）'
+    - '&7潜行时，'
+    - '&7你会立即&c传送到&7'
+    - '&7你的箭矢落点处。'
+    - '&8冷却时间：&310 秒'
+    max-durability: 2000.0
+    defense: 45.0
+    max-health: 30.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 11.0
+    hide-dye: true
+    dye-color: 253 216 144
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+CAELETUS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 幻天靴子
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 10.0
+    projectile-damage: 10
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｨ 移形换位&8（单件增益）'
+    - '&7潜行时，'
+    - '&7你会立即&c传送到&7'
+    - '&7你的箭矢落点处。'
+    - '&8冷却时间：&310 秒'
+    max-durability: 1300.0
+    defense: 30.0
+    max-health: 20.0
+    unstackable: true
+    browser-idx: 11.0
+    hide-dye: true
+    movement-speed: 0.06
+    dye-color: 110 85 125
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+MORTOS_ARMET:
+  base:
+    material: PLAYER_HEAD
+    name: Mortos Armet
+    tier: S+
+    disable-interaction: true
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThhYzhkMTExYzI2OWJiN2VmYzZiNTY2MGI2ZDM3OWQ4MGQxZThhZDNmOTNjNGEwZWJhNWNjZWRjMWU3M2NiZSJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｩ 易伤咒杀&8（单件增益）'
+    - '&7按住 shift 并右击，'
+    - '&7即可对敌人施加法咒，'
+    - '&7使其受到的所有伤害增加 &c25%'
+    - '&7持续时间为 &c5 秒'
+    - '&8冷却时间：&320 秒'
+    max-durability: 506.0
+    browser-idx: 12.0
+    set: Mortos
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 2.5
+    knockback-resistance: 0.25
+    goop-hat: true
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+MORTOS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 归亡胸甲
+    tier: S+
+    critical-strike-chance: 15.0
+    critical-strike-power: 30.0
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｩ 易伤咒杀&8（单件增益）'
+    - '&7按住 shift 并右击，'
+    - '&7即可对敌人施加法咒，'
+    - '&7使其受到的所有伤害增加 &c25%'
+    - '&7持续时间为 &c5 秒'
+    - '&8冷却时间：&320 秒'
+    max-durability: 2250.0
+    defense: 90.0
+    max-health: 55.0
+    knockback-resistance: 0.25
+    unstackable: true
+    durability-bar: true
+    browser-idx: 12.0
+    hide-dye: true
+    dye-color: 102 246 255
+    damage-reduction: 2.5
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+MORTOS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 归亡护腿
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 17.5
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｩ 易伤咒杀&8（单件增益）'
+    - '&7按住 shift 并右击，'
+    - '&7即可对敌人施加法咒，'
+    - '&7使其受到的所有伤害增加 &c25%'
+    - '&7持续时间为 &c5 秒'
+    - '&8冷却时间：&320 秒'
+    max-durability: 2000.0
+    defense: 70.0
+    max-health: 50.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 12.0
+    hide-dye: true
+    knockback-resistance: 0.25
+    dye-color: 102 246 255
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    damage-reduction: 2.5
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+MORTOS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 归亡靴子
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 12.5
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｩ 易伤咒杀&8（单件增益）'
+    - '&7按住 shift 并右击，'
+    - '&7即可对敌人施加法咒，'
+    - '&7使其受到的所有伤害增加 &c25%'
+    - '&7持续时间为 &c5 秒'
+    - '&8冷却时间：&320 秒'
+    max-durability: 2000.0
+    defense: 55.0
+    max-health: 45.0
+    unstackable: true
+    durability-bar: true
+    damage-reduction: 2.5
+    browser-idx: 12.0
+    movement-speed: 0.04
+    knockback-resistance: 0.25
+    hide-dye: true
+    dye-color: 21 75 76
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+HEXIM_JUDENHAT:
+  base:
+    material: PLAYER_HEAD
+    name: Hexim Judenhat
+    tier: S+
+    disable-interaction: true
+    skill-damage: 25
+    cooldown-reduction: 5
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkyZTNmZTdkYWZlMDJjMGJlMDFjMTdjYmU2NGRjMGQ5YTI1MDVjMWNmMjM4MzdjNDllMmFlNzk0YWMxMjE4NCJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｱ Necromancy &8(Piece Bonus)'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8Cooldown: &35s'
+    max-durability: 506.0
+    browser-idx: 9.0
+    set: Hexim
+    defense: 35.0
+    max-health: 35.0
+    goop-hat: true
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    wisdom: 35.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+HEXIM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: 咒邪胸甲
+    tier: S+
+    skill-damage: 35
+    cooldown-reduction: 5
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｱ Necromancy &8(Piece Bonus)'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8Cooldown: &35s'
+    max-durability: 2250.0
+    browser-idx: 9.0
+    set: Hexim
+    defense: 60.0
+    max-health: 35.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 206 141 238
+    hide-dye: true
+    wisdom: 50.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+HEXIM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: 咒邪护腿
+    tier: S+
+    skill-damage: 30
+    cooldown-reduction: 5
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｱ Necromancy &8(Piece Bonus)'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8Cooldown: &35s'
+    max-durability: 2000.0
+    browser-idx: 9.0
+    set: Hexim
+    defense: 55.0
+    max-health: 40.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 206 141 238
+    hide-dye: true
+    wisdom: 40.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+HEXIM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: 咒邪靴子
+    tier: S+
+    skill-damage: 25
+    cooldown-reduction: 5
+    lore:
+    - '&7对 Boss 生物 &c+2.5%&7 的伤害！'
+    - ''
+    - '&fｦ 毁灭战士&8（全套）'
+    - '&7击杀敌人时将会撕裂它的灵魂，'
+    - '&7&c3 &7秒后，灵魂将会发生爆炸，'
+    - '&7对周围所有敌人'
+    - '&7造成 &c30&7 点伤害，'
+    - '&7所有受到伤害的敌人'
+    - '&7会被施加&b❆缓慢 I&7'
+    - '&8冷却时间：&3 3 &7秒'
+    - ''
+    - '&fｱ Necromancy &8(Piece Bonus)'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8Cooldown: &35s'
+    max-durability: 1300.0
+    browser-idx: 9.0
+    set: Hexim
+    defense: 40.0
+    max-health: 30.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 0 4 51
+    hide-dye: true
+    movement-speed: 0.05
+    wisdom: 35.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+MYTHRIL_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIzNzZmNzQ4OTlhNjRhMzFkZjEwNmRlOWMzY2FjMTA5Y2VhYThhMmQxZWIzZmFjN2MwMDgzNDM1NDg2MDRmNiJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: Mythril头盔
+    disable-interaction: true
+    critical-strike-chance: 7.0
+    critical-strike-power: 12.5
+    defense: 25.0
+    max-health: 15.0
+    unstackable: true
+    set: Mythril
+    lore:
+    - '&fヱ Adaptive &8(Passive)'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus +15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 +10% damage'
+    - '&7and heals for &c1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &c2%❤&7'
+    tier: A
+    element:
+      magical: {}
+    ability:
+      ability1:
+        type: ADAPTIVE_FIRST
+        mode: ATTACK
+      ability2:
+        type: ADAPTIVE_SECOND
+        mode: ATTACK
+      ability3:
+        type: ADAPTIVE_THIRD
+        mode: ATTACK
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+MYTHRIL_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Mythril胸甲
+    critical-strike-chance: 12.5
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 25.0
+    damage-reduction: 2
+    set: Mythril
+    lore:
+    - '&fヱ Adaptive &8(Passive)'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus +15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 +10% damage'
+    - '&7and heals for &c1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &c2%❤&7'
+    tier: A
+    dye-color: 197 170 195
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+MYTHRIL_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Mythril护腿
+    critical-strike-chance: 7.0
+    critical-strike-power: 15.0
+    defense: 35.0
+    max-health: 17.0
+    set: Mythril
+    lore:
+    - '&fヱ Adaptive &8(Passive)'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus +15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 +10% damage'
+    - '&7and heals for &c1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &c2%❤&7'
+    tier: A
+    dye-color: 197 170 195
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+MYTHRIL_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Mythril靴子
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    defense: 25.0
+    max-health: 20.0
+    movement-speed: 0.01
+    set: Mythril
+    lore:
+    - '&fヱ Adaptive &8(Passive)'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus +15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 +10% damage'
+    - '&7and heals for &c1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &c2%❤&7'
+    tier: A
+    dye-color: 6 213 230
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+ORICHALCUM_MASK:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMyOWFmM2E1MmEyM2FiOTRkYjJlY2NhNzU1OTMxMzEyNzY3ZDNiNTE0ZDQ3MDU2ZmM4NDQ0MGM3ZTI4NDljZCJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: Orichalcum Mask
+    disable-interaction: true
+    defense: 30.0
+    max-health: 20.0
+    unstackable: true
+    tier: A
+    skill-damage: 15.0
+    set: Orichalcum
+    lore:
+    - '&fロ Mystic Burst &8(Passive)'
+    - '&7Dealing ability damage triggers an'
+    - '&7energy burst, dealing&c 30 + &b10%✎&7'
+    - '&7extra damage &8(10s cooldown)'
+    wisdom: 35.0
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+ORICHALCUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Orichalcum胸甲
+    skill-damage: 30.0
+    defense: 55.0
+    max-health: 30.0
+    cooldown-reduction: 10
+    wisdom: 100
+    set: Orichalcum
+    lore:
+    - '&fロ Mystic Burst &8(Passive)'
+    - '&7Dealing ability damage triggers an'
+    - '&7energy burst, dealing&c 30 + &b10%✎&7'
+    - '&7extra damage &8(10s cooldown)'
+    tier: A
+    dye-color: 255 77 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+ORICHALCUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Orichalcum护腿
+    skill-damage: 15.0
+    defense: 40.0
+    max-health: 20.0
+    cooldown-reduction: 5
+    wisdom: 75
+    set: Orichalcum
+    lore:
+    - '&fロ Mystic Burst &8(Passive)'
+    - '&7Dealing ability damage triggers an'
+    - '&7energy burst, dealing&c 30 + &b10%✎&7'
+    - '&7extra damage &8(10s cooldown)'
+    tier: A
+    dye-color: 255 137 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+ORICHALCUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Orichalcum靴子
+    skill-damage: 10.0
+    defense: 30.0
+    max-health: 25.0
+    wisdom: 25
+    movement-speed: 0.02
+    set: Orichalcum
+    lore:
+    - '&fロ Mystic Burst &8(Passive)'
+    - '&7Dealing ability damage triggers an'
+    - '&7energy burst, dealing&c 30 + &b10%✎&7'
+    - '&7extra damage &8(10s cooldown)'
+    tier: A
+    dye-color: 255 177 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+TITANIUM_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjczOThlYjg0NDdlN2JjZjEzYzE2MTEyMmFhODNmNDhhN2Q1NDEyMWQ0Nzc5ZTk5M2FlMTMwNGJkMThhYzEifX19
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: Titanium头盔
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    defense: 60.0
+    max-health: 20.0
+    unstackable: true
+    tier: S
+    set: Titanium
+    lore:
+    - '&fレ Retribution &8(Passive)'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+TITANIUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Titanium胸甲
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 35.0
+    tier: S
+    set: Titanium
+    lore:
+    - '&fレ Retribution &8(Passive)'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+    dye-color: 154 154 154
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+TITANIUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Titanium护腿
+    critical-strike-chance: 6.0
+    critical-strike-power: 17.5
+    defense: 40.0
+    max-health: 30.0
+    tier: S
+    set: Titanium
+    lore:
+    - '&fレ Retribution &8(Passive)'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+    dye-color: 192 192 192
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+TITANIUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Titanium靴子
+    critical-strike-chance: 5.0
+    critical-strike-power: 12.5
+    defense: 35.0
+    max-health: 25.0
+    movement-speed: 0.03
+    tier: S
+    set: Titanium
+    lore:
+    - '&fレ Retribution &8(Passive)'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+    dye-color: 230 230 230
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+PERMAFROST_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc5MzdlNDQzZWU5MjE1NDI4ZDE2MjYzODc0N2NjYzU2OTYzZTMwYzEzYjk0Yzk5MmM3ZjA5YzEyN2Y4NDJlZSJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: <GRADIENT:#93fafb:#d3fafb>Permafrost头盔
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    skill-damage: 25
+    wisdom: 80
+    defense: 45.0
+    max-health: 15.0
+    unstackable: true
+    tier: S
+    set: Permafrost
+    lore:
+    - '&f௾ Ice Reaper &8(Passive)'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - <#d3fafb>freezing&7 all nearby enemies.
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    ability: {}
+PERMAFROST_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <GRADIENT:#93fafb:#d3fafb>Permafrost胸甲
+    critical-strike-chance: 7.5
+    critical-strike-power: 17.5
+    knockback-resistance: 0.2
+    defense: 65.0
+    max-health: 30.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&f௾ Ice Reaper &8(Passive)'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - <#d3fafb>freezing&7 all nearby enemies.
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    dye-color: 211 250 251
+    hide-dye: true
+    projectile-damage-reduction: 10.0
+PERMAFROST_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <GRADIENT:#93fafb:#d3fafb>Permafrost护腿
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    weapon-damage: 10
+    defense: 30.0
+    max-health: 30.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&f௾ Ice Reaper &8(Passive)'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - <#d3fafb>freezing&7 all nearby enemies.
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    dye-color: 211 250 251
+    hide-dye: true
+PERMAFROST_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <GRADIENT:#93fafb:#d3fafb>Permafrost靴子
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 35.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&f௾ Ice Reaper &8(Passive)'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - <#d3fafb>freezing&7 all nearby enemies.
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    dye-color: 211 250 251
+    hide-dye: true
+    fall-damage-reduction: 35.0
+    movement-speed: 0.03

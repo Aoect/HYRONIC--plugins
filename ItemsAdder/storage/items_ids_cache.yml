@@ -1,0 +1,44 @@
+PAPER:
+  _iainternal:icon_left_blue: 10000
+  _iainternal:icon_right_blue: 10001
+  _iainternal:icon_search: 10002
+  _iainternal:icon_cancel: 10003
+  _iainternal:icon_arrow_chest: 10004
+  _iainternal:icon_back_orange: 10005
+  _iainternal:icon_next_orange: 10006
+  hs:red_block: 10007
+  hs:red_block2: 10008
+  hs:red_block3: 10009
+  hs:red_block4: 10010
+  hs:red_block5: 10011
+  hs:red_block6: 10012
+  hs:red_block7: 10013
+  hs:red_block8: 10014
+  hs:red_block9: 10015
+  hs:red_block10: 10016
+  hs:red_block11: 10017
+  hs:red_block12: 10018
+  hs:red_block13: 10019
+  hs:red_block14: 10020
+  hs:red_block15: 10021
+  hs:red_block16: 10022
+  hs:red_block17: 10023
+  hs:mythril_ore: 10024
+  hs:mythril_bar: 10025
+  hs:orichalcum_ore: 10026
+  hs:titanium_ore: 10027
+  hs:orichalcum_bar: 10028
+  hs:titanium_bar: 10029
+PLAYER_HEAD:
+  __manually_handled:iainternal__player_hat_slot: 10000
+  __manually_handled:iainternal__player_left_arm_slot: 10001
+  __manually_handled:iainternal__player_right_arm_slot: 10002
+  __manually_handled:iainternal__player_phead_0: 10003
+  __manually_handled:iainternal__player_parm_left_3: 10004
+  __manually_handled:iainternal__player_pbody_2: 10005
+  __manually_handled:iainternal__player_pleg_left_1: 10006
+  __manually_handled:iainternal__player_pleg_right_5: 10007
+  __manually_handled:iainternal__player_parm_right_4: 10008
+NETHERITE_PICKAXE:
+  hs:mythril_pickaxe: 10000
+  hs:orichalcum_pickaxe: 10001
